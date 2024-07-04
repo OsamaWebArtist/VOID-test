@@ -1,0 +1,2428 @@
+/*Globale Rules*/
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    margin: 0;
+}
+/* Desktop */
+.void-test{
+
+    position: relative;
+    width: 1920px;
+    height: 6476px;
+    margin: auto;
+
+    .head{
+
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: black;
+
+        > div:nth-child(1){
+            display: flex;
+            >a{
+
+                img{
+
+                }
+            }
+                        
+            
+            > button:nth-of-type(1){
+                display: none;
+
+                & img{
+
+                }
+            }
+            >ul{
+                display: flex;
+                flex-direction: row;
+
+                li{
+
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 20px;
+                margin: 10px;
+                cursor: pointer;
+
+                }
+            }
+        }
+        >div:nth-child(2){
+            display: flex;
+            >ul{
+                display: flex;
+                flex-direction: row;
+                
+                li{
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 20px; 
+                    margin:10px;   
+                    cursor: pointer;
+                }
+            }
+            > button{
+                cursor: pointer;
+            }
+            > button:nth-of-type(1){
+                border: none;
+                background-color: transparent;
+                margin: 0px 15px 14px 15px;
+                
+                & img{
+
+                }
+            }
+            > button:nth-of-type(2){
+                border: none;
+                background-color: transparent;
+                margin-bottom: 15px;
+                & img{
+
+                }
+            }
+            > button:nth-of-type(3){
+                border: none;
+                background-color: transparent;
+                margin-bottom: 15px;
+                font-weight: bold;
+            }
+
+        }
+    }
+
+
+    .the-body{ 
+
+        background: #F5F5F5;
+
+
+        .order-list{
+            display: flex;
+            padding: 5px 0;
+            ul{
+
+            /* Nav - breadcrumb → Ordered List → Item → Link → Accueil */
+
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13.125px;
+            line-height: 24px;
+
+            color: rgba(0, 0, 0, 0.6);
+            display: flex;
+            align-items: center;
+            margin: auto 0;
+            padding: 0;
+                li{
+                    margin: 0 10px;
+                }
+                > li:nth-of-type(5){
+                    /* Nav - breadcrumb → Ordered List → Item → Communiqués de presse */
+                    color: rgba(0, 0, 0, 0.87);
+
+
+                }
+
+            }
+        }
+
+        #top{
+            /* div#top */
+
+            background: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            > div:nth-child(1){
+                width: 1184px;
+                padding: 30px 0;
+            }
+            h1{
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 45.375px;
+            line-height: 72px;
+            color: #000000;
+            }
+            .muibox-root{
+                button{
+                    /* Button */
+
+                    background: #7A00E6;
+                    border-radius: 4px;
+                    border: none;
+                    padding: 15px;
+                    /* Link → Recevoir des alertes email */
+
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14.625px;
+                    line-height: 16px;
+                    /* identical to box height, or 109% */
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+
+                    color: #FFFFFF;
+
+
+                }
+            }
+
+        }
+
+        #main{
+        /* div#main */
+        background: #FFFFFF;
+        width: 1184px;
+        padding: 50px 0px 100px 0;
+        margin: auto;
+        margin-top: 50px;
+            .elements-ds-1h2ruwl{
+                
+                button{
+                    /* Filtrer par année */
+                    border: none;
+                    padding: 12px;
+
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14.625px;
+                    line-height: 24px;
+
+                    color: #0D0D0D;
+
+
+                    img{
+                        margin-left: 5px;
+                    }
+                }
+            }
+            .all-boxs{
+                margin-top: 35px;
+                > div:nth-child(22){
+                    border-bottom: 3px solid #F5F5F5;
+                }
+                .muibox-root{
+                    color: #000000;
+                    border-top: 3px solid #F5F5F5;
+                    padding: 35px;
+                    display: flex;
+                    justify-content: space-between;
+                    div:nth-child(1){
+
+                        span{
+
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 13.2344px;
+                        line-height: 35px;
+                        padding-bottom: 10px;
+                        }
+                        p{
+                            /* Communiqué : Résultats de phase II montrent que le rilzabrutinib permet de réduire rapidement la sévérité des démangeaisons causées par l’urticaire chronique spontanée et d’améliorer significativement l’activité de la maladie chez l’adulte */
+                            width: 897.35px;
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 22.3125px;
+                        line-height: 36px;
+
+                        
+
+
+                        }
+                        a{
+                            /* Link → Lire le communiqué */
+
+
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 15px;
+                            line-height: 20px;
+                            text-decoration: none;
+                            color: #000000;
+                            img{
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                    div:nth-child(2){
+
+                        img{
+                            /* Link - link */
+                            width: 45px;
+                            border: 1px solid #7A00E6;
+                            border-radius: 9999px;
+                            padding: 10px;
+
+                        }
+                    }
+                }
+
+                .navigation{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: center;
+                    margin-top: 35px;
+                    span{
+                        margin: 20px;
+                        img{
+
+                        }
+                    }
+
+                    .pages-list{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin: 0;
+                        padding: 0;
+                        li:nth-of-type(1){
+
+                            background: #23004C;
+                            border-radius: 9999px;
+                            width: 44px;
+                            color: #FFFFFF;
+                            padding: 10px 5px;
+                            text-align: center;
+                        }
+                        li{
+
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        margin: 0 15px ;
+                        color: #000000;
+
+
+                        }
+                    }
+
+                }
+            }
+
+            .dotcom-content-block{
+                margin-top: 150px;
+                h2{
+                    /* Heading 2 → Déclarations */
+
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 34.0312px;
+                line-height: 54px;
+                color: #000000;
+                }
+
+                a{
+                    text-decoration: none;
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14.75px;
+                    line-height: 20px;
+                    color: #000000;
+
+
+                    img{
+                        margin-left: 10px;
+                    }
+                }
+            }
+
+        }
+    } 
+
+    .the-footer{
+
+
+        .css-oonhgn{
+            /* div.css-oonhgn */
+            background: #000000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            .MuiBox-root{
+                display: flex;
+                align-items: center;
+                img{
+
+                }
+
+
+            }
+            .css-wx3a3b{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                span{
+                    /* Suivez nous */
+
+
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 24px;
+
+                color: #FFFFFF;
+
+
+                }
+                ul{
+                    display: flex;
+                    align-items: center;
+                    margin: 0;
+                    padding: 0;
+                    li{
+                        border: 1px solid #FFFFFF;
+                        border-radius: 20px;
+                        padding: 7px 10px;
+                        margin-left: 10px;
+                        width: 40px;
+                        text-align: center;
+
+                        img{
+
+                        } 
+                    }
+                }
+
+            .css-cnp892{
+                margin-left: 35px;
+                button{
+                    /* Button - Haut de la page → Haut de la page */
+
+                    font-family: 'Work sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: #FFFFFF;
+                    border: none;
+                    background-color: transparent;
+                }
+
+                button{
+
+                    img{
+
+                    }
+                }
+            }    
+            }
+
+
+        }
+
+        .css-1boijxs{
+            padding: 35px 15px;
+            height: 160px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .Nav{
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                margin: 0;
+                padding: 0;
+                li{
+                    /* List → Item → Link → Code de Conduite */
+                    margin-right: 35px;
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15.125px;
+                    line-height: 24px;
+                    color: #0D0D0D;
+
+                }
+            }
+
+            .MuiTypography-root{
+/* © Sanofi 2004-2024 - Tous droits réservés */
+
+
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14.75px;
+                line-height: 24px;
+                color: #0D0D0D;
+
+
+            }
+        }
+
+    }
+}
+
+
+@media (max-Width:1440px) {
+    .void-test{
+
+        position: relative;
+        width: 100%;
+        height: 6476px;
+        margin: auto;
+    
+        .head{
+    
+        background: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        color: black;
+    
+            > div:nth-child(1){
+                display: flex;
+                >a{
+    
+                    img{
+    
+                    }
+                }
+                >ul{
+                    display: flex;
+                    flex-direction: row;
+    
+                    li{
+    
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 20px;
+                    margin: 10px;
+                    cursor: pointer;
+    
+                    }
+                }
+            }
+            >div:nth-child(2){
+                display: flex;
+                >ul{
+                    display: flex;
+                    flex-direction: row;
+                    
+                    li{
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 20px; 
+                        margin:10px;   
+                        cursor: pointer;
+                    }
+                }
+                > button{
+                    cursor: pointer;
+                }
+                > button:nth-of-type(1){
+                    border: none;
+                    background-color: transparent;
+                    margin: 0px 15px 14px 15px;
+                    
+                    & img{
+    
+                    }
+                }
+                > button:nth-of-type(2){
+                    border: none;
+                    background-color: transparent;
+                    margin-bottom: 15px;
+                    & img{
+    
+                    }
+                }
+                > button:nth-of-type(3){
+                    border: none;
+                    background-color: transparent;
+                    margin-bottom: 15px;
+                    font-weight: bold;
+                }
+                > button:nth-of-type(4){
+                    display: none;
+    
+                    & img{
+    
+                    }
+                }
+            }
+        }
+    
+    
+        .the-body{ 
+    
+            background: #F5F5F5;
+    
+    
+            .order-list{
+                display: flex;
+                padding: 5px 0;
+                ul{
+    
+                /* Nav - breadcrumb → Ordered List → Item → Link → Accueil */
+    
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13.125px;
+                line-height: 24px;
+    
+                color: rgba(0, 0, 0, 0.6);
+                display: flex;
+                align-items: center;
+                margin: auto 0;
+                padding: 0;
+                    li{
+                        margin: 0 10px;
+                    }
+                    > li:nth-of-type(5){
+                        /* Nav - breadcrumb → Ordered List → Item → Communiqués de presse */
+                        color: rgba(0, 0, 0, 0.87);
+    
+    
+                    }
+    
+                }
+            }
+    
+            #top{
+                /* div#top */
+    
+                background: #FFFFFF;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                > div:nth-child(1){
+                    width: 1184px;
+                    padding: 30px 0;
+                }
+                h1{
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 45.375px;
+                line-height: 72px;
+                color: #000000;
+                }
+                .muibox-root{
+                    button{
+                        /* Button */
+    
+                        background: #7A00E6;
+                        border-radius: 4px;
+                        border: none;
+                        padding: 15px;
+                        /* Link → Recevoir des alertes email */
+    
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14.625px;
+                        line-height: 16px;
+                        /* identical to box height, or 109% */
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+    
+                        color: #FFFFFF;
+    
+    
+                    }
+                }
+    
+            }
+    
+            #main{
+            /* div#main */
+            background: #FFFFFF;
+            width: 1184px;
+            padding: 50px 0px 100px 0;
+            margin: auto;
+            margin-top: 50px;
+                .elements-ds-1h2ruwl{
+                    
+                    button{
+                        /* Filtrer par année */
+                        border: none;
+                        padding: 12px;
+    
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14.625px;
+                        line-height: 24px;
+    
+                        color: #0D0D0D;
+    
+    
+                        img{
+                            margin-left: 5px;
+                        }
+                    }
+                }
+                .all-boxs{
+                    margin-top: 35px;
+                    > div:nth-child(22){
+                        border-bottom: 3px solid #F5F5F5;
+                    }
+                    .muibox-root{
+                        color: #000000;
+                        border-top: 3px solid #F5F5F5;
+                        padding: 35px;
+                        display: flex;
+                        justify-content: space-between;
+                        div:nth-child(1){
+    
+                            span{
+    
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 13.2344px;
+                            line-height: 35px;
+                            padding-bottom: 10px;
+                            }
+                            p{
+                                /* Communiqué : Résultats de phase II montrent que le rilzabrutinib permet de réduire rapidement la sévérité des démangeaisons causées par l’urticaire chronique spontanée et d’améliorer significativement l’activité de la maladie chez l’adulte */
+                                width: 897.35px;
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 22.3125px;
+                            line-height: 36px;
+    
+                            
+    
+    
+                            }
+                            a{
+                                /* Link → Lire le communiqué */
+    
+    
+                                font-family: 'Work Sans';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 15px;
+                                line-height: 20px;
+                                text-decoration: none;
+                                color: #000000;
+                                img{
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                        div:nth-child(2){
+    
+                            img{
+                                /* Link - link */
+                                width: 45px;
+                                border: 1px solid #7A00E6;
+                                border-radius: 9999px;
+                                padding: 10px;
+    
+                            }
+                        }
+                    }
+    
+                    .navigation{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        justify-content: center;
+                        margin-top: 35px;
+                        span{
+                            margin: 20px;
+                            img{
+    
+                            }
+                        }
+    
+                        .pages-list{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            margin: 0;
+                            padding: 0;
+                            li:nth-of-type(1){
+    
+                                background: #23004C;
+                                border-radius: 9999px;
+                                width: 44px;
+                                color: #FFFFFF;
+                                padding: 10px 5px;
+                                text-align: center;
+                            }
+                            li{
+    
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            margin: 0 15px ;
+                            color: #000000;
+    
+    
+                            }
+                        }
+    
+                    }
+                }
+    
+                .dotcom-content-block{
+                    margin-top: 150px;
+                    h2{
+                        /* Heading 2 → Déclarations */
+    
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 34.0312px;
+                    line-height: 54px;
+                    color: #000000;
+                    }
+    
+                    a{
+                        text-decoration: none;
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14.75px;
+                        line-height: 20px;
+                        color: #000000;
+    
+    
+                        img{
+                            margin-left: 10px;
+                        }
+                    }
+                }
+    
+            }
+        } 
+    
+        .the-footer{
+    
+    
+            .css-oonhgn{
+                /* div.css-oonhgn */
+                background: #000000;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px;
+                .MuiBox-root{
+                    display: flex;
+                    align-items: center;
+                    img{
+    
+                    }
+    
+    
+                }
+                .css-wx3a3b{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    span{
+                        /* Suivez nous */
+    
+    
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 24px;
+    
+                    color: #FFFFFF;
+    
+    
+                    }
+                    ul{
+                        display: flex;
+                        align-items: center;
+                        margin: 0;
+                        padding: 0;
+                        li{
+                            border: 1px solid #FFFFFF;
+                            border-radius: 20px;
+                            padding: 7px 10px;
+                            margin-left: 10px;
+                            width: 40px;
+                            text-align: center;
+    
+                            img{
+    
+                            } 
+                        }
+                    }
+    
+                .css-cnp892{
+                    margin-left: 35px;
+                    button{
+                        /* Button - Haut de la page → Haut de la page */
+    
+                        font-family: 'Work sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 18px;
+                        color: #FFFFFF;
+                        border: none;
+                        background-color: transparent;
+                    }
+    
+                    button{
+    
+                        img{
+    
+                        }
+                    }
+                }    
+                }
+    
+    
+            }
+    
+            .css-1boijxs{
+                padding: 35px 15px;
+                height: 160px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .Nav{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    margin: 0;
+                    padding: 0;
+                    li{
+                        /* List → Item → Link → Code de Conduite */
+                        margin-right: 35px;
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15.125px;
+                        line-height: 24px;
+                        color: #0D0D0D;
+    
+                    }
+                }
+    
+                .MuiTypography-root{
+    /* © Sanofi 2004-2024 - Tous droits réservés */
+    
+    
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14.75px;
+                    line-height: 24px;
+                    color: #0D0D0D;
+    
+    
+                }
+            }
+    
+        }
+    }
+}
+
+@media (max-Width:1024px) {
+    .void-test{
+
+        position: relative;
+        width: 100%;
+        height: 6476px;
+        margin: auto;
+
+        .head{
+    
+            background: #FFFFFF;
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            color: black;
+            
+                > div:nth-child(1){
+                    display: flex;
+
+                    > button:nth-of-type(1){
+                    border: none;
+                    background-color: transparent;
+                    margin: 0px 15px 14px 15px;
+                    display: block;
+                        & img{
+
+                            } 
+                    }
+                    >a{
+        
+                        img{
+        
+                        }
+                    }
+                    >ul{
+                        display: none;
+
+        
+                        li{
+        
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 20px;
+                        margin: 10px;
+                        cursor: pointer;
+        
+                        }
+                    }
+                }
+                >div:nth-child(2){
+                    display: flex;
+                    >ul{
+                        display: none;
+                        li{
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 15px;
+                            line-height: 20px; 
+                            margin:10px;   
+                            cursor: pointer;
+                        }
+                    }
+                    > button{
+                        cursor: pointer;
+                    }
+                    > button:nth-of-type(1){
+                        border: none;
+                        background-color: transparent;
+                        margin: 0px 15px 14px 15px;
+                        
+                        & img{
+        
+                        }
+                    }
+                    > button:nth-of-type(2){
+                        border: none;
+                        background-color: transparent;
+                        margin-bottom: 15px;
+                        display: none;
+                        & img{
+        
+                        }
+                    }
+                    > button:nth-of-type(3){
+                        border: none;
+                        background-color: transparent;
+                        margin-bottom: 15px;
+                        font-weight: bold;
+                        display: none;
+                    }
+
+                    }
+               
+            }
+        
+        
+            .the-body{ 
+        
+                background: #F5F5F5;
+        
+        
+                .order-list{
+                    display: flex;
+                    padding: 5px 0;
+                    ul{
+        
+                    /* Nav - breadcrumb → Ordered List → Item → Link → Accueil */
+        
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13.125px;
+                    line-height: 24px;
+        
+                    color: rgba(0, 0, 0, 0.6);
+                    display: flex;
+                    align-items: center;
+                    margin: auto 0;
+                    padding: 0;
+                        li{
+                            margin: 0 10px;
+                        }
+                        > li:nth-of-type(5){
+                            /* Nav - breadcrumb → Ordered List → Item → Communiqués de presse */
+                            color: rgba(0, 0, 0, 0.87);
+        
+        
+                        }
+        
+                    }
+                }
+        
+                #top{
+                    /* div#top */
+        
+                    background: #FFFFFF;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 10px;
+                    > div:nth-child(1){
+                        width: 100%;
+                        padding: 30px 0;
+                    }
+                    h1{
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 45.375px;
+                    line-height: 72px;
+                    color: #000000;
+                    }
+                    .muibox-root{
+                        button{
+                            /* Button */
+        
+                            background: #7A00E6;
+                            border-radius: 4px;
+                            border: none;
+                            padding: 15px;
+                            /* Link → Recevoir des alertes email */
+        
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14.625px;
+                            line-height: 16px;
+                            /* identical to box height, or 109% */
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+        
+                            color: #FFFFFF;
+        
+        
+                        }
+                    }
+        
+                }
+        
+                #main{
+                /* div#main */
+                background: #FFFFFF;
+                width: 100%;
+                padding: 50px 0px 100px 0;
+                margin: auto;
+                margin-top: 50px;
+                    .elements-ds-1h2ruwl{
+                        
+                        button{
+                            /* Filtrer par année */
+                            border: none;
+                            padding: 12px;
+        
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14.625px;
+                            line-height: 24px;
+        
+                            color: #0D0D0D;
+        
+        
+                            img{
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                    .all-boxs{
+                        margin-top: 35px;
+                        > div:nth-child(22){
+                            border-bottom: 3px solid #F5F5F5;
+                        }
+                        .muibox-root{
+                            color: #000000;
+                            border-top: 3px solid #F5F5F5;
+                            padding: 35px;
+                            display: flex;
+                            justify-content: space-between;
+                            div:nth-child(1){
+        
+                                span{
+        
+                                font-family: 'Work Sans';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 13.2344px;
+                                line-height: 35px;
+                                padding-bottom: 10px;
+                                }
+                                p{
+                                    /* Communiqué : Résultats de phase II montrent que le rilzabrutinib permet de réduire rapidement la sévérité des démangeaisons causées par l’urticaire chronique spontanée et d’améliorer significativement l’activité de la maladie chez l’adulte */
+                                    width: 90%;
+                                font-family: 'Work Sans';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 22.3125px;
+                                line-height: 36px;
+        
+                                
+        
+        
+                                }
+                                a{
+                                    /* Link → Lire le communiqué */
+        
+        
+                                    font-family: 'Work Sans';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 15px;
+                                    line-height: 20px;
+                                    text-decoration: none;
+                                    color: #000000;
+                                    img{
+                                        margin-left: 10px;
+                                    }
+                                }
+                            }
+                            div:nth-child(2){
+        
+                                img{
+                                    /* Link - link */
+                                    width: 45px;
+                                    border: 1px solid #7A00E6;
+                                    border-radius: 9999px;
+                                    padding: 10px;
+        
+                                }
+                            }
+                        }
+        
+                        .navigation{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            justify-content: center;
+                            margin-top: 35px;
+                            span{
+                                margin: 20px;
+                                img{
+        
+                                }
+                            }
+        
+                            .pages-list{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                margin: 0;
+                                padding: 0;
+                                li:nth-of-type(1){
+        
+                                    background: #23004C;
+                                    border-radius: 9999px;
+                                    width: 44px;
+                                    color: #FFFFFF;
+                                    padding: 10px 5px;
+                                    text-align: center;
+                                }
+                                li{
+        
+                                font-family: 'Work Sans';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                margin: 0 15px ;
+                                color: #000000;
+        
+        
+                                }
+                            }
+        
+                        }
+                    }
+        
+                    .dotcom-content-block{
+                        margin-top: 150px;
+                        h2{
+                            /* Heading 2 → Déclarations */
+        
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 34.0312px;
+                        line-height: 54px;
+                        color: #000000;
+                        }
+        
+                        a{
+                            text-decoration: none;
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14.75px;
+                            line-height: 20px;
+                            color: #000000;
+        
+        
+                            img{
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+        
+                }
+            } 
+        
+            .the-footer{
+                width: 100%;
+                .css-oonhgn{
+                    /* div.css-oonhgn */
+                    background: #000000;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 15px;
+
+                    .MuiBox-root{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 20px;
+                        img{
+        
+                        }
+        
+        
+                    }
+                    .css-wx3a3b{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-top: 15px;
+                        span{
+                            /* Suivez nous */
+        
+        
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 24px;
+        
+                        color: #FFFFFF;
+        
+        
+                        }
+                        ul{
+                            display: flex;
+                            align-items: center;
+                            margin: 0;
+                            padding: 0;
+                            li{
+                                border: 1px solid #FFFFFF;
+                                border-radius: 20px;
+                                padding: 7px 10px;
+                                margin-left: 10px;
+                                width: 40px;
+                                text-align: center;
+        
+                                img{
+        
+                                } 
+                            }
+                        }
+        
+                    .css-cnp892{
+                        margin-left: 0;
+                        button{
+                            /* Button - Haut de la page → Haut de la page */
+        
+                            font-family: 'Work sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 18px;
+                            color: #FFFFFF;
+                            border: none;
+                            background-color: transparent;
+                        }
+        
+                        button{
+                            margin-top: 20px;
+                            img{
+        
+                            }
+                        }
+                    }    
+                    }
+        
+        
+                }
+        
+                .css-1boijxs{
+                    padding: 35px 15px;
+                    height: 160px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    .Nav{
+                        display: flex;
+                        align-items: flex-start;
+                        flex-direction: column;
+                        margin: 0;
+                        padding: 0;
+                        li{
+                            /* List → Item → Link → Code de Conduite */
+                            margin-right: 35px;
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15.125px;
+                            line-height: 24px;
+                            color: #0D0D0D;
+                            margin-bottom: 20px;
+                        }
+                    }
+        
+                    .MuiTypography-root{
+        /* © Sanofi 2004-2024 - Tous droits réservés */
+        
+        
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14.75px;
+                        line-height: 24px;
+                        color: #0D0D0D;
+        
+        
+                    }
+                }
+        
+            }
+    }
+}
+
+@media (max-Width:768px) {
+    .void-test{
+
+        position: relative;
+        width: 100%;
+        height: 6476px;
+        margin: auto;
+
+        .head{
+    
+            background: #FFFFFF;
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            color: black;
+            
+                > div:nth-child(1){
+                    display: flex;
+
+                    > button:nth-of-type(1){
+                    border: none;
+                    background-color: transparent;
+                    margin: 0px 15px 14px 15px;
+                    display: block;
+                        & img{
+
+                            } 
+                    }
+                    >a{
+        
+                        img{
+        
+                        }
+                    }
+                    >ul{
+                        display: none;
+
+        
+                        li{
+        
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 20px;
+                        margin: 10px;
+                        cursor: pointer;
+        
+                        }
+                    }
+                }
+                >div:nth-child(2){
+                    display: flex;
+                    >ul{
+                        display: none;
+                        li{
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 15px;
+                            line-height: 20px; 
+                            margin:10px;   
+                            cursor: pointer;
+                        }
+                    }
+                    > button{
+                        cursor: pointer;
+                    }
+                    > button:nth-of-type(1){
+                        border: none;
+                        background-color: transparent;
+                        margin: 0px 15px 14px 15px;
+                        
+                        & img{
+        
+                        }
+                    }
+                    > button:nth-of-type(2){
+                        border: none;
+                        background-color: transparent;
+                        margin-bottom: 15px;
+                        display: none;
+                        & img{
+        
+                        }
+                    }
+                    > button:nth-of-type(3){
+                        border: none;
+                        background-color: transparent;
+                        margin-bottom: 15px;
+                        font-weight: bold;
+                        display: none;
+                    }
+
+                    }
+               
+            }
+        
+        
+            .the-body{ 
+        
+                background: #F5F5F5;
+        
+        
+                .order-list{
+                    display: flex;
+                    padding: 5px 0;
+                    ul{
+        
+                    /* Nav - breadcrumb → Ordered List → Item → Link → Accueil */
+        
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13.125px;
+                    line-height: 24px;
+        
+                    color: rgba(0, 0, 0, 0.6);
+                    display: flex;
+                    align-items: center;
+                    margin: auto 0;
+                    padding: 0;
+                        li{
+                            margin: 0 10px;
+                        }
+                        > li:nth-of-type(5){
+                            /* Nav - breadcrumb → Ordered List → Item → Communiqués de presse */
+                            color: rgba(0, 0, 0, 0.87);
+        
+        
+                        }
+        
+                    }
+                }
+        
+                #top{
+                    /* div#top */
+        
+                    background: #FFFFFF;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 10px;
+                    > div:nth-child(1){
+                        width: 100%;
+                        padding: 30px 0;
+                    }
+                    h1{
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 45.375px;
+                    line-height: 72px;
+                    color: #000000;
+                    }
+                    .muibox-root{
+                        button{
+                            /* Button */
+        
+                            background: #7A00E6;
+                            border-radius: 4px;
+                            border: none;
+                            padding: 15px;
+                            /* Link → Recevoir des alertes email */
+        
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14.625px;
+                            line-height: 16px;
+                            /* identical to box height, or 109% */
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+        
+                            color: #FFFFFF;
+        
+        
+                        }
+                    }
+        
+                }
+        
+                #main{
+                /* div#main */
+                background: #FFFFFF;
+                width: 100%;
+                padding: 50px 0px 100px 0;
+                margin: auto;
+                margin-top: 50px;
+                    .elements-ds-1h2ruwl{
+                        
+                        button{
+                            /* Filtrer par année */
+                            border: none;
+                            padding: 12px;
+        
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14.625px;
+                            line-height: 24px;
+        
+                            color: #0D0D0D;
+        
+        
+                            img{
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                    .all-boxs{
+                        margin-top: 35px;
+                        > div:nth-child(22){
+                            border-bottom: 3px solid #F5F5F5;
+                        }
+                        .muibox-root{
+                            color: #000000;
+                            border-top: 3px solid #F5F5F5;
+                            padding: 35px;
+                            display: flex;
+                            justify-content: space-between;
+                            div:nth-child(1){
+        
+                                span{
+        
+                                font-family: 'Work Sans';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 13.2344px;
+                                line-height: 35px;
+                                padding-bottom: 10px;
+                                }
+                                p{
+                                    /* Communiqué : Résultats de phase II montrent que le rilzabrutinib permet de réduire rapidement la sévérité des démangeaisons causées par l’urticaire chronique spontanée et d’améliorer significativement l’activité de la maladie chez l’adulte */
+                                    width: 90%;
+                                font-family: 'Work Sans';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 22.3125px;
+                                line-height: 36px;
+        
+                                
+        
+        
+                                }
+                                a{
+                                    /* Link → Lire le communiqué */
+        
+        
+                                    font-family: 'Work Sans';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 15px;
+                                    line-height: 20px;
+                                    text-decoration: none;
+                                    color: #000000;
+                                    img{
+                                        margin-left: 10px;
+                                    }
+                                }
+                            }
+                            div:nth-child(2){
+        
+                                img{
+                                    /* Link - link */
+                                    width: 45px;
+                                    border: 1px solid #7A00E6;
+                                    border-radius: 9999px;
+                                    padding: 10px;
+        
+                                }
+                            }
+                        }
+        
+                        .navigation{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            justify-content: center;
+                            margin-top: 35px;
+                            span{
+                                margin: 20px;
+                                img{
+        
+                                }
+                            }
+        
+                            .pages-list{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                margin: 0;
+                                padding: 0;
+                                li:nth-of-type(1){
+        
+                                    background: #23004C;
+                                    border-radius: 9999px;
+                                    width: 44px;
+                                    color: #FFFFFF;
+                                    padding: 10px 5px;
+                                    text-align: center;
+                                }
+                                li{
+        
+                                font-family: 'Work Sans';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                margin: 0 15px ;
+                                color: #000000;
+        
+        
+                                }
+                            }
+        
+                        }
+                    }
+        
+                    .dotcom-content-block{
+                        margin-top: 150px;
+                        h2{
+                            /* Heading 2 → Déclarations */
+        
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 34.0312px;
+                        line-height: 54px;
+                        color: #000000;
+                        }
+        
+                        a{
+                            text-decoration: none;
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14.75px;
+                            line-height: 20px;
+                            color: #000000;
+        
+        
+                            img{
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+        
+                }
+            } 
+        
+            .the-footer{
+                width: 100%;
+                .css-oonhgn{
+                    /* div.css-oonhgn */
+                    background: #000000;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 15px;
+
+                    .MuiBox-root{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 20px;
+                        img{
+        
+                        }
+        
+        
+                    }
+                    .css-wx3a3b{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-top: 15px;
+                        span{
+                            /* Suivez nous */
+        
+        
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 24px;
+        
+                        color: #FFFFFF;
+        
+        
+                        }
+                        ul{
+                            display: flex;
+                            align-items: center;
+                            margin: 0;
+                            padding: 0;
+                            li{
+                                border: 1px solid #FFFFFF;
+                                border-radius: 20px;
+                                padding: 7px 10px;
+                                margin-left: 10px;
+                                width: 40px;
+                                text-align: center;
+        
+                                img{
+        
+                                } 
+                            }
+                        }
+        
+                    .css-cnp892{
+                        margin-left: 0;
+                        button{
+                            /* Button - Haut de la page → Haut de la page */
+        
+                            font-family: 'Work sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 18px;
+                            color: #FFFFFF;
+                            border: none;
+                            background-color: transparent;
+                        }
+        
+                        button{
+                            margin-top: 20px;
+                            img{
+        
+                            }
+                        }
+                    }    
+                    }
+        
+        
+                }
+        
+                .css-1boijxs{
+                    padding: 35px 15px;
+                    height: 160px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    .Nav{
+                        display: flex;
+                        align-items: flex-start;
+                        flex-direction: column;
+                        margin: 0;
+                        padding: 0;
+                        li{
+                            /* List → Item → Link → Code de Conduite */
+                            margin-right: 35px;
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15.125px;
+                            line-height: 24px;
+                            color: #0D0D0D;
+                            margin-bottom: 20px;
+                        }
+                    }
+        
+                    .MuiTypography-root{
+        /* © Sanofi 2004-2024 - Tous droits réservés */
+        
+        
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14.75px;
+                        line-height: 24px;
+                        color: #0D0D0D;
+        
+        
+                    }
+                }
+        
+            }
+    }
+}
+
+@media (max-Width:390px) {
+    .void-test{
+
+        position: relative;
+        width: 390px;
+        height: 6476px;
+        margin: auto;
+
+        .head{
+    
+            background: #FFFFFF;
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            color: black;
+            
+                > div:nth-child(1){
+                    display: flex;
+
+                    > button:nth-of-type(1){
+                    border: none;
+                    background-color: transparent;
+                    margin: 0px 15px 14px 15px;
+                    display: block;
+                        & img{
+
+                            } 
+                    }
+                    >a{
+        
+                        img{
+        
+                        }
+                    }
+                    >ul{
+                        display: none;
+
+        
+                        li{
+        
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 20px;
+                        margin: 10px;
+                        cursor: pointer;
+        
+                        }
+                    }
+                }
+                >div:nth-child(2){
+                    display: flex;
+                    >ul{
+                        display: none;
+                        li{
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 15px;
+                            line-height: 20px; 
+                            margin:10px;   
+                            cursor: pointer;
+                        }
+                    }
+                    > button{
+                        cursor: pointer;
+                    }
+                    > button:nth-of-type(1){
+                        border: none;
+                        background-color: transparent;
+                        margin: 0px 15px 14px 15px;
+                        
+                        & img{
+        
+                        }
+                    }
+                    > button:nth-of-type(2){
+                        border: none;
+                        background-color: transparent;
+                        margin-bottom: 15px;
+                        display: none;
+                        & img{
+        
+                        }
+                    }
+                    > button:nth-of-type(3){
+                        border: none;
+                        background-color: transparent;
+                        margin-bottom: 15px;
+                        font-weight: bold;
+                        display: none;
+                    }
+
+                    }
+               
+            }
+        
+        
+            .the-body{ 
+        
+                background: #F5F5F5;
+        
+        
+                .order-list{
+                    display: none;
+                    padding: 5px 0;
+                    ul{
+        
+                    /* Nav - breadcrumb → Ordered List → Item → Link → Accueil */
+        
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13.125px;
+                    line-height: 24px;
+        
+                    color: rgba(0, 0, 0, 0.6);
+                    display: flex;
+                    align-items: center;
+                    margin: auto 0;
+                    padding: 0;
+                        li{
+                            margin: 0 10px;
+                        }
+                        > li:nth-of-type(5){
+                            /* Nav - breadcrumb → Ordered List → Item → Communiqués de presse */
+                            color: rgba(0, 0, 0, 0.87);
+        
+        
+                        }
+        
+                    }
+                }
+        
+                #top{
+                    /* div#top */
+        
+                    background: #FFFFFF;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 10px;
+                    > div:nth-child(1){
+                        width: 100%;
+                        padding: 30px 0;
+                    }
+                    h1{
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 45.375px;
+                    line-height: 72px;
+                    color: #000000;
+                    }
+                    .muibox-root{
+                        button{
+                            /* Button */
+        
+                            background: #7A00E6;
+                            border-radius: 4px;
+                            border: none;
+                            padding: 15px;
+                            /* Link → Recevoir des alertes email */
+        
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14.625px;
+                            line-height: 16px;
+                            /* identical to box height, or 109% */
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+        
+                            color: #FFFFFF;
+        
+        
+                        }
+                    }
+        
+                }
+        
+                #main{
+                /* div#main */
+                background: #FFFFFF;
+                width: 100%;
+                padding: 50px 0px 100px 0;
+                margin: auto;
+                margin-top: 50px;
+                    .elements-ds-1h2ruwl{
+                        
+                        button{
+                            /* Filtrer par année */
+                            border: none;
+                            padding: 12px;
+        
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14.625px;
+                            line-height: 24px;
+        
+                            color: #0D0D0D;
+        
+        
+                            img{
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                    .all-boxs{
+                        margin-top: 35px;
+                        > div:nth-child(22){
+                            border-bottom: 3px solid #F5F5F5;
+                        }
+                        .muibox-root{
+                            color: #000000;
+                            border-top: 3px solid #F5F5F5;
+                            padding: 35px;
+                            display: flex;
+                            justify-content: space-between;
+                            div:nth-child(1){
+        
+                                span{
+        
+                                font-family: 'Work Sans';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 13.2344px;
+                                line-height: 35px;
+                                padding-bottom: 10px;
+                                }
+                                p{
+                                    /* Communiqué : Résultats de phase II montrent que le rilzabrutinib permet de réduire rapidement la sévérité des démangeaisons causées par l’urticaire chronique spontanée et d’améliorer significativement l’activité de la maladie chez l’adulte */
+                                    width: 90%;
+                                font-family: 'Work Sans';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 22.3125px;
+                                line-height: 36px;
+        
+                                
+        
+        
+                                }
+                                a{
+                                    /* Link → Lire le communiqué */
+        
+        
+                                    font-family: 'Work Sans';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 15px;
+                                    line-height: 20px;
+                                    text-decoration: none;
+                                    color: #000000;
+                                    img{
+                                        margin-left: 10px;
+                                    }
+                                }
+                            }
+                            div:nth-child(2){
+                                display: flex;
+                                align-items: flex-end;
+                                img{
+                                    /* Link - link */
+                                    width: 45px;
+                                    border: 1px solid #7A00E6;
+                                    border-radius: 9999px;
+                                    padding: 10px;
+        
+                                }
+                            }
+                        }
+        
+                        .navigation{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            justify-content: center;
+                            margin-top: 35px;
+                            span{
+                                margin: 20px;
+                                img{
+        
+                                }
+                            }
+
+                            span:first-child{
+                                display: none;
+                                img{
+        
+                                }
+                            }
+
+                            span:last-child{
+                                display: none;
+                                img{
+        
+                                }
+                            }
+                            .pages-list{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                margin: 0;
+                                padding: 0;
+                                li:nth-of-type(1){
+        
+                                    background: #23004C;
+                                    border-radius: 9999px;
+                                    width: 44px;
+                                    color: #FFFFFF;
+                                    padding: 10px 5px;
+                                    text-align: center;
+                                }
+                                li{
+        
+                                font-family: 'Work Sans';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                margin: 0 15px ;
+                                color: #000000;
+        
+        
+                                }
+                                >li:nth-of-type(6){
+                                    display: none;
+                                }
+                                >li:nth-of-type(6){
+                                    display: none;
+                                }
+                            }
+        
+                        }
+                    }
+        
+                    .dotcom-content-block{
+                        margin-top: 150px;
+                        margin-left: 20px;
+                        h2{
+                            /* Heading 2 → Déclarations */
+        
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 34.0312px;
+                        line-height: 54px;
+                        color: #000000;
+                        }
+        
+                        a{
+                            text-decoration: none;
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14.75px;
+                            line-height: 20px;
+                            color: #000000;
+        
+        
+                            img{
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+        
+                }
+            } 
+        
+            .the-footer{
+                width: 100%;
+                .css-oonhgn{
+                    /* div.css-oonhgn */
+                    background: #000000;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 15px;
+
+                    .MuiBox-root{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 20px;
+                        img{
+        
+                        }
+        
+        
+                    }
+                    .css-wx3a3b{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-top: 15px;
+                        span{
+                            /* Suivez nous */
+        
+        
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 24px;
+        
+                        color: #FFFFFF;
+        
+        
+                        }
+                        ul{
+                            display: flex;
+                            align-items: center;
+                            margin: 0;
+                            padding: 0;
+                            li{
+                                border: 1px solid #FFFFFF;
+                                border-radius: 20px;
+                                padding: 7px 10px;
+                                margin-left: 10px;
+                                width: 40px;
+                                text-align: center;
+        
+                                img{
+        
+                                } 
+                            }
+                        }
+        
+                    .css-cnp892{
+                        margin-left: 0;
+                        button{
+                            /* Button - Haut de la page → Haut de la page */
+        
+                            font-family: 'Work sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 18px;
+                            color: #FFFFFF;
+                            border: none;
+                            background-color: transparent;
+                        }
+        
+                        button{
+                            margin-top: 20px;
+                            img{
+        
+                            }
+                        }
+                    }    
+                    }
+        
+        
+                }
+        
+                .css-1boijxs{
+                    padding: 35px 15px;
+                    height: 160px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    .Nav{
+                        display: flex;
+                        align-items: flex-start;
+                        flex-direction: column;
+                        margin: 0;
+                        padding: 0;
+                        li{
+                            /* List → Item → Link → Code de Conduite */
+                            margin-right: 35px;
+                            font-family: 'Work Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15.125px;
+                            line-height: 24px;
+                            color: #0D0D0D;
+                            margin-bottom: 20px;
+                        }
+                    }
+        
+                    .MuiTypography-root{
+        /* © Sanofi 2004-2024 - Tous droits réservés */
+        
+        
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14.75px;
+                        line-height: 24px;
+                        color: #0D0D0D;
+        
+        
+                    }
+                }
+        
+            }
+    }
+}
