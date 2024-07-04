@@ -1,0 +1,1235 @@
+@charset "UTF-8";
+/*Globale Rules*/
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.4688px;
+  line-height: 54px;
+  color: #000000;
+  padding: 0px 75.26px 0px 0px;
+}
+
+p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.625px;
+  line-height: 24px;
+  color: #0D0D0D;
+}
+
+/* Desktop */
+.void-test {
+  position: relative;
+  width: 1920px;
+  height: 6476px;
+  margin: auto;
+}
+.void-test .head {
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  color: black;
+}
+.void-test .head > div:nth-child(1) {
+  display: flex;
+}
+.void-test .head > div:nth-child(1) > button:nth-of-type(1) {
+  display: none;
+}
+.void-test .head > div:nth-child(1) > ul {
+  display: flex;
+  flex-direction: row;
+}
+.void-test .head > div:nth-child(1) > ul li {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+.void-test .head > div:nth-child(2) {
+  display: flex;
+}
+.void-test .head > div:nth-child(2) > ul {
+  display: flex;
+  flex-direction: row;
+}
+.void-test .head > div:nth-child(2) > ul li {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+.void-test .head > div:nth-child(2) > button {
+  cursor: pointer;
+}
+.void-test .head > div:nth-child(2) > button:nth-of-type(1) {
+  border: none;
+  background-color: transparent;
+  margin: 0px 15px 14px 15px;
+}
+.void-test .head > div:nth-child(2) > button:nth-of-type(2) {
+  border: none;
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+.void-test .head > div:nth-child(2) > button:nth-of-type(3) {
+  border: none;
+  background-color: transparent;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.void-test .the-body {
+  background: #F5F5F5;
+  padding-bottom: 50px;
+}
+.void-test .the-body .order-list {
+  display: flex;
+  padding: 5px 0;
+}
+.void-test .the-body .order-list ul {
+  /* Nav - breadcrumb → Ordered List → Item → Link → Accueil */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.125px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  margin: auto 0;
+  padding: 0;
+}
+.void-test .the-body .order-list ul li {
+  margin: 0 10px;
+}
+.void-test .the-body .order-list ul > li:nth-of-type(7) {
+  /* Nav - breadcrumb → Ordered List → Item → Communiqués de presse */
+  color: rgba(0, 0, 0, 0.87);
+}
+.void-test .the-body #top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 50px 0 15px 0;
+}
+.void-test .the-body #top .h2d-8c044d50 {
+  width: 1184px;
+}
+.void-test .the-body #top .h2d-8c044d50 h1 {
+  /* Conseil d'Administration */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45.5625px;
+  line-height: 72px;
+  color: #000000;
+}
+.void-test .the-body #main {
+  width: 1184px;
+  margin: 30px auto;
+  background-color: white;
+}
+.void-test .the-body #main .dotcom-content-block {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 600px;
+}
+.void-test .the-body #main .dotcom-content-block div:nth-child(1) h2 {
+  /* Aperçu */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34.4531px;
+  line-height: 54px;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-content-block div:nth-child(2) p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.375px;
+  line-height: 24px;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-content-block div:nth-child(2) p:nth-of-type(2) {
+  margin-top: 50px;
+}
+.void-test .the-body #main .dotcom-content h2 {
+  /* Composition du Conseil */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.875px;
+  line-height: 36px;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-content p {
+  /* Le Conseil d'administration, nommé par les actionnaires, est composé de 16 membres dont deux représentants des salariés. */
+  width: 691px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 24px;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-bio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.void-test .the-body #main .dotcom-bio .muigrid-root {
+  /* div.MuiBox-root */
+  margin-bottom: 15px;
+  width: 284px;
+  border: 1px solid #C9C9C9;
+  border-radius: 8px;
+}
+.void-test .the-body #main .dotcom-bio .muigrid-root > img {
+  width: 100%;
+}
+.void-test .the-body #main .dotcom-bio .muigrid-root div {
+  padding: 20px;
+}
+.void-test .the-body #main .dotcom-bio .muigrid-root div h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.6875px;
+  line-height: 36px;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-bio .muigrid-root div p {
+  margin: 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.75px;
+  line-height: 24px;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-bio .muigrid-root div a {
+  /* En savoir plus */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.75px;
+  line-height: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+.void-test .the-body #main .dotcom-bio .muigrid-root div a img {
+  margin-left: 10px;
+}
+.void-test .the-body #main .dotcom-bio-summary .custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+.void-test .the-body #main .dotcom-bio-summary .custom-table td {
+  padding: 15px 0 15px 5px;
+  text-align: left;
+  border: none;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-bio-summary .custom-table thead {
+  border-bottom: 1px solid #23004C;
+}
+.void-test .the-body #main .dotcom-bio-summary .custom-table thead th {
+  padding: 15px 0 15px 5px;
+  border: none;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-bio-summary .custom-table thead th:nth-child(n+2):nth-child(-n+10) {
+  text-align: center;
+}
+.void-test .the-body #main .dotcom-bio-summary .custom-table tbody tr {
+  background-color: #fff;
+  border-bottom: 1px solid #E4E4E4;
+}
+.void-test .the-body #main .dotcom-bio-summary .custom-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+.void-test .the-body #main .dotcom-bio-summary .custom-table tbody tr > td:nth-child(n+6):nth-child(-n+10) {
+  border-left: 1px solid #E4E4E4;
+}
+.void-test .the-body #main .dotcom-bio-summary .custom-table tbody tr td {
+  /* Frédéric Oudéa */
+  padding: 50px 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.875px;
+  line-height: 24px;
+  padding-left: 5px;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-bio-summary .custom-table tbody tr > td:nth-child(n+2):nth-child(-n+10) {
+  text-align: center;
+}
+.void-test .the-body #main .muitypo-root {
+  margin: 15px 5px;
+  /* CA : Comité d’audit CNG : Comité des nominations, de la gouvernance et de la RSE CR : Comité des rémunérations CS : Comité de réflexion stratégique CSci : Comité scientifique P : Président(e) */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.25px;
+  line-height: 24px;
+  color: #0D0D0D;
+}
+.void-test .the-footer .css-oonhgn {
+  /* div.css-oonhgn */
+  background: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.void-test .the-footer .css-oonhgn .MuiBox-root {
+  display: flex;
+  align-items: center;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b span {
+  /* Suivez nous */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li {
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  padding: 7px 10px;
+  margin-left: 10px;
+  width: 40px;
+  text-align: center;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b .css-cnp892 {
+  margin-left: 35px;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b .css-cnp892 button {
+  /* Button - Haut de la page → Haut de la page */
+  font-family: "Work sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  border: none;
+  background-color: transparent;
+}
+.void-test .the-footer .css-1boijxs {
+  padding: 35px 15px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.void-test .the-footer .css-1boijxs .Nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.void-test .the-footer .css-1boijxs .Nav li {
+  /* List → Item → Link → Code de Conduite */
+  margin-right: 35px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.125px;
+  line-height: 24px;
+  color: #0D0D0D;
+}
+.void-test .the-footer .css-1boijxs .MuiTypography-root {
+  /* © Sanofi 2004-2024 - Tous droits réservés */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.75px;
+  line-height: 24px;
+  color: #0D0D0D;
+}
+
+@media (max-Width: 1440px) {
+  .void-test {
+    position: relative;
+    width: 100%;
+    height: 6476px;
+    margin: auto;
+  }
+  .void-test .head {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: black;
+  }
+  .void-test .head > div:nth-child(1) {
+    display: flex;
+  }
+  .void-test .head > div:nth-child(1) > ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .void-test .head > div:nth-child(1) > ul li {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .void-test .head > div:nth-child(2) {
+    display: flex;
+  }
+  .void-test .head > div:nth-child(2) > ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .void-test .head > div:nth-child(2) > ul li {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .void-test .head > div:nth-child(2) > button {
+    cursor: pointer;
+  }
+  .void-test .head > div:nth-child(2) > button:nth-of-type(1) {
+    border: none;
+    background-color: transparent;
+    margin: 0px 15px 14px 15px;
+  }
+  .void-test .head > div:nth-child(2) > button:nth-of-type(2) {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 15px;
+  }
+  .void-test .head > div:nth-child(2) > button:nth-of-type(3) {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  .void-test .head > div:nth-child(2) > button:nth-of-type(4) {
+    display: none;
+  }
+  .void-test .the-body {
+    background: #F5F5F5;
+  }
+  .void-test .the-body .order-list {
+    display: flex;
+    padding: 5px 0;
+  }
+  .void-test .the-body .order-list ul {
+    /* Nav - breadcrumb → Ordered List → Item → Link → Accueil */
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.125px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    padding: 0;
+  }
+  .void-test .the-body .order-list ul li {
+    margin: 0 10px;
+  }
+  .void-test .the-body .order-list ul > li:nth-of-type(5) {
+    /* Nav - breadcrumb → Ordered List → Item → Communiqués de presse */
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .void-test .the-body #main {
+    width: 100%;
+  }
+  .void-test .the-body #main .dotcom-bio {
+    justify-content: CENTER;
+  }
+  .void-test .the-body #main .dotcom-bio .muigrid-root {
+    margin: 15px;
+  }
+  .void-test .the-footer .css-oonhgn {
+    /* div.css-oonhgn */
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  .void-test .the-footer .css-oonhgn .MuiBox-root {
+    display: flex;
+    align-items: center;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b span {
+    /* Suivez nous */
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b ul li {
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 7px 10px;
+    margin-left: 10px;
+    width: 40px;
+    text-align: center;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b .css-cnp892 {
+    margin-left: 35px;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b .css-cnp892 button {
+    /* Button - Haut de la page → Haut de la page */
+    font-family: "Work sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: none;
+    background-color: transparent;
+  }
+  .void-test .the-footer .css-1boijxs {
+    padding: 35px 15px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .void-test .the-footer .css-1boijxs .Nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+  }
+  .void-test .the-footer .css-1boijxs .Nav li {
+    /* List → Item → Link → Code de Conduite */
+    margin-right: 35px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.125px;
+    line-height: 24px;
+    color: #0D0D0D;
+  }
+  .void-test .the-footer .css-1boijxs .MuiTypography-root {
+    /* © Sanofi 2004-2024 - Tous droits réservés */
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.75px;
+    line-height: 24px;
+    color: #0D0D0D;
+  }
+}
+@media (max-Width: 1024px) {
+  .void-test {
+    position: relative;
+    width: 100%;
+    height: 6476px;
+    margin: auto;
+  }
+  .void-test .head {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: black;
+  }
+  .void-test .head > div:nth-child(1) {
+    display: flex;
+  }
+  .void-test .head > div:nth-child(1) > button:nth-of-type(1) {
+    border: none;
+    background-color: transparent;
+    margin: 0px 15px 14px 15px;
+    display: block;
+  }
+  .void-test .head > div:nth-child(1) > ul {
+    display: none;
+  }
+  .void-test .head > div:nth-child(1) > ul li {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .void-test .head > div:nth-child(2) {
+    display: flex;
+  }
+  .void-test .head > div:nth-child(2) > ul {
+    display: none;
+  }
+  .void-test .head > div:nth-child(2) > ul li {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .void-test .head > div:nth-child(2) > button {
+    cursor: pointer;
+  }
+  .void-test .head > div:nth-child(2) > button:nth-of-type(1) {
+    border: none;
+    background-color: transparent;
+    margin: 0px 15px 14px 15px;
+  }
+  .void-test .head > div:nth-child(2) > button:nth-of-type(2) {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 15px;
+    display: none;
+  }
+  .void-test .head > div:nth-child(2) > button:nth-of-type(3) {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 15px;
+    font-weight: bold;
+    display: none;
+  }
+  .void-test .the-body {
+    background: #F5F5F5;
+  }
+  .void-test .the-body .order-list {
+    display: flex;
+    padding: 5px 0;
+  }
+  .void-test .the-body .order-list ul {
+    /* Nav - breadcrumb → Ordered List → Item → Link → Accueil */
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.125px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    padding: 0;
+  }
+  .void-test .the-body .order-list ul li {
+    margin: 0 10px;
+  }
+  .void-test .the-body .order-list ul > li:nth-of-type(5) {
+    /* Nav - breadcrumb → Ordered List → Item → Communiqués de presse */
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .void-test .the-body #main {
+    width: 100%;
+  }
+  .void-test .the-body #main .dotcom-bio {
+    justify-content: CENTER;
+  }
+  .void-test .the-body #main .dotcom-bio .muigrid-root {
+    margin: 15px;
+  }
+  .void-test .the-footer {
+    width: 100%;
+  }
+  .void-test .the-footer .css-oonhgn {
+    /* div.css-oonhgn */
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  .void-test .the-footer .css-oonhgn .MuiBox-root {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b span {
+    /* Suivez nous */
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b ul li {
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 7px 10px;
+    margin-left: 10px;
+    width: 40px;
+    text-align: center;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b .css-cnp892 {
+    margin-left: 0;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b .css-cnp892 button {
+    /* Button - Haut de la page → Haut de la page */
+    font-family: "Work sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: none;
+    background-color: transparent;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b .css-cnp892 button {
+    margin-top: 20px;
+  }
+  .void-test .the-footer .css-1boijxs {
+    padding: 35px 15px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .void-test .the-footer .css-1boijxs .Nav {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .void-test .the-footer .css-1boijxs .Nav li {
+    /* List → Item → Link → Code de Conduite */
+    margin-right: 35px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.125px;
+    line-height: 24px;
+    color: #0D0D0D;
+    margin-bottom: 20px;
+  }
+  .void-test .the-footer .css-1boijxs .MuiTypography-root {
+    /* © Sanofi 2004-2024 - Tous droits réservés */
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.75px;
+    line-height: 24px;
+    color: #0D0D0D;
+  }
+}
+@media (max-Width: 768px) {
+  .void-test {
+    position: relative;
+    width: 100%;
+    height: 6476px;
+    margin: auto;
+  }
+  .void-test .head {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    color: black;
+  }
+  .void-test .head > div:nth-child(1) {
+    display: flex;
+  }
+  .void-test .head > div:nth-child(1) > button:nth-of-type(1) {
+    border: none;
+    background-color: transparent;
+    margin: 0px 15px 14px 15px;
+    display: block;
+  }
+  .void-test .head > div:nth-child(1) > ul {
+    display: none;
+  }
+  .void-test .head > div:nth-child(1) > ul li {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .void-test .head > div:nth-child(2) {
+    display: flex;
+  }
+  .void-test .head > div:nth-child(2) > ul {
+    display: none;
+  }
+  .void-test .head > div:nth-child(2) > ul li {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .void-test .head > div:nth-child(2) > button {
+    cursor: pointer;
+  }
+  .void-test .head > div:nth-child(2) > button:nth-of-type(1) {
+    border: none;
+    background-color: transparent;
+    margin: 0px 15px 14px 15px;
+  }
+  .void-test .head > div:nth-child(2) > button:nth-of-type(2) {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 15px;
+    display: none;
+  }
+  .void-test .head > div:nth-child(2) > button:nth-of-type(3) {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 15px;
+    font-weight: bold;
+    display: none;
+  }
+  .void-test .the-body {
+    background: #F5F5F5;
+  }
+  .void-test .the-body .order-list {
+    display: flex;
+    padding: 5px 0;
+  }
+  .void-test .the-body .order-list ul {
+    /* Nav - breadcrumb → Ordered List → Item → Link → Accueil */
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.125px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    padding: 0;
+  }
+  .void-test .the-body .order-list ul li {
+    margin: 0 10px;
+  }
+  .void-test .the-body .order-list ul > li:nth-of-type(5) {
+    /* Nav - breadcrumb → Ordered List → Item → Communiqués de presse */
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .void-test .the-body #main {
+    width: 100%;
+  }
+  .void-test .the-body #main .dotcom-content-block {
+    width: 100%;
+    text-align: center;
+  }
+  .void-test .the-body #main .dotcom-content {
+    text-align: center;
+  }
+  .void-test .the-body #main .dotcom-content p {
+    width: 100%;
+  }
+  .void-test .the-body #main .dotcom-bio {
+    justify-content: CENTER;
+  }
+  .void-test .the-body #main .dotcom-bio .muigrid-root {
+    margin: 15px;
+  }
+  .void-test .the-body #main .dotcom-bio-summary {
+    overflow-x: hidden;
+  }
+  .void-test .the-footer {
+    width: 100%;
+  }
+  .void-test .the-footer .css-oonhgn {
+    /* div.css-oonhgn */
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  .void-test .the-footer .css-oonhgn .MuiBox-root {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b span {
+    /* Suivez nous */
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b ul li {
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 7px 10px;
+    margin-left: 10px;
+    width: 40px;
+    text-align: center;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b .css-cnp892 {
+    margin-left: 0;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b .css-cnp892 button {
+    /* Button - Haut de la page → Haut de la page */
+    font-family: "Work sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: none;
+    background-color: transparent;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b .css-cnp892 button {
+    margin-top: 20px;
+  }
+  .void-test .the-footer .css-1boijxs {
+    padding: 35px 15px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .void-test .the-footer .css-1boijxs .Nav {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .void-test .the-footer .css-1boijxs .Nav li {
+    /* List → Item → Link → Code de Conduite */
+    margin-right: 35px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.125px;
+    line-height: 24px;
+    color: #0D0D0D;
+    margin-bottom: 20px;
+  }
+  .void-test .the-footer .css-1boijxs .MuiTypography-root {
+    /* © Sanofi 2004-2024 - Tous droits réservés */
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.75px;
+    line-height: 24px;
+    color: #0D0D0D;
+  }
+}
+@media (max-Width: 390px) {
+  .void-test {
+    position: relative;
+    width: 390px;
+    height: 6476px;
+    margin: auto;
+  }
+  .void-test .head {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    color: black;
+  }
+  .void-test .head > div:nth-child(1) {
+    display: flex;
+  }
+  .void-test .head > div:nth-child(1) > button:nth-of-type(1) {
+    border: none;
+    background-color: transparent;
+    margin: 0px 15px 14px 15px;
+    display: block;
+  }
+  .void-test .head > div:nth-child(1) > ul {
+    display: none;
+  }
+  .void-test .head > div:nth-child(1) > ul li {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .void-test .head > div:nth-child(2) {
+    display: flex;
+  }
+  .void-test .head > div:nth-child(2) > ul {
+    display: none;
+  }
+  .void-test .head > div:nth-child(2) > ul li {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .void-test .head > div:nth-child(2) > button {
+    cursor: pointer;
+  }
+  .void-test .head > div:nth-child(2) > button:nth-of-type(1) {
+    border: none;
+    background-color: transparent;
+    margin: 0px 15px 14px 15px;
+  }
+  .void-test .head > div:nth-child(2) > button:nth-of-type(2) {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 15px;
+    display: none;
+  }
+  .void-test .head > div:nth-child(2) > button:nth-of-type(3) {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 15px;
+    font-weight: bold;
+    display: none;
+  }
+  .void-test .the-body {
+    width: 100%;
+    background: #F5F5F5;
+  }
+  .void-test .the-body .order-list {
+    display: flex;
+    padding: 5px 0;
+  }
+  .void-test .the-body .order-list ul {
+    /* Nav - breadcrumb → Ordered List → Item → Link → Accueil */
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.125px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    padding: 0;
+  }
+  .void-test .the-body .order-list ul li {
+    margin: 0 10px;
+  }
+  .void-test .the-body .order-list ul > li:nth-of-type(5) {
+    /* Nav - breadcrumb → Ordered List → Item → Communiqués de presse */
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .void-test .the-body #main {
+    width: 100%;
+  }
+  .void-test .the-body #main .dotcom-content-block {
+    width: 100%;
+    text-align: center;
+  }
+  .void-test .the-body #main .dotcom-content {
+    text-align: center;
+  }
+  .void-test .the-body #main .dotcom-content p {
+    width: 100%;
+  }
+  .void-test .the-body #main .dotcom-bio {
+    justify-content: CENTER;
+  }
+  .void-test .the-body #main .dotcom-bio .muigrid-root {
+    margin: 15px;
+  }
+  .void-test .the-body #main .dotcom-bio-summary {
+    overflow-x: hidden;
+  }
+  .void-test .the-footer {
+    width: 100%;
+  }
+  .void-test .the-footer .css-oonhgn {
+    /* div.css-oonhgn */
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  .void-test .the-footer .css-oonhgn .MuiBox-root {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b span {
+    /* Suivez nous */
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b ul li {
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 7px 10px;
+    margin-left: 10px;
+    width: 40px;
+    text-align: center;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b .css-cnp892 {
+    margin-left: 0;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b .css-cnp892 button {
+    /* Button - Haut de la page → Haut de la page */
+    font-family: "Work sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: none;
+    background-color: transparent;
+  }
+  .void-test .the-footer .css-oonhgn .css-wx3a3b .css-cnp892 button {
+    margin-top: 20px;
+  }
+  .void-test .the-footer .css-1boijxs {
+    padding: 35px 15px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .void-test .the-footer .css-1boijxs .Nav {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .void-test .the-footer .css-1boijxs .Nav li {
+    /* List → Item → Link → Code de Conduite */
+    margin-right: 35px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.125px;
+    line-height: 24px;
+    color: #0D0D0D;
+    margin-bottom: 20px;
+  }
+  .void-test .the-footer .css-1boijxs .MuiTypography-root {
+    /* © Sanofi 2004-2024 - Tous droits réservés */
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.75px;
+    line-height: 24px;
+    color: #0D0D0D;
+  }
+}/*# sourceMappingURL=main.css.map */
