@@ -1,0 +1,5658 @@
+@charset "UTF-8";
+/*Globale Rules*/
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+}
+
+/* Desktop */
+.void-test {
+  position: relative;
+  width: 1440px;
+  height: 6743.38px;
+  margin: auto;
+}
+.void-test .head {
+  /* Header */
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 6670.38px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #F5F5F5;
+  /* Heading 1 → Journée des */
+}
+.void-test .head h1 {
+  position: absolute;
+  width: 85px;
+  height: 49px;
+  left: 0px;
+  top: -11.5px;
+  margin: 15px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.6094px;
+  line-height: 54px;
+  /* or 161% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .head ul li {
+  cursor: pointer;
+}
+.void-test .head ul li:nth-child(1) {
+  position: absolute;
+  width: 123.25px;
+  height: 19px;
+  left: 152px;
+  top: 26.5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .head ul li:nth-child(2) {
+  /* Nav → List → Item → Link → Notre science */
+  position: absolute;
+  width: 103.36px;
+  height: 19px;
+  left: 299.05px;
+  top: 26.5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.125px;
+  line-height: 20px;
+  /* or 132% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .head ul li:nth-child(3) {
+  /* Nav → List → Item → Link → Votre Santé */
+  position: absolute;
+  width: 87.18px;
+  height: 19px;
+  left: 426.2px;
+  top: 26.5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .head ul li:nth-child(4) {
+  /* Nav → List → Item → Link → Partenariat */
+  position: absolute;
+  width: 84.3px;
+  height: 19px;
+  left: 537.18px;
+  top: 26.5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .head ul li:nth-child(5) {
+  /* Nav → List → Item → Link → Média */
+  position: absolute;
+  width: 45.18px;
+  height: 19px;
+  left: 811.13px;
+  top: 26.5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.125px;
+  line-height: 20px;
+  /* or 132% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .head ul li:nth-child(6) {
+  /* Nav → List → Item → Link → Investisseurs */
+  position: absolute;
+  width: 97.37px;
+  height: 19px;
+  left: 880.1px;
+  top: 26.5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.875px;
+  line-height: 20px;
+  /* or 134% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .head ul li:nth-child(7) {
+  /* Nav → List → Item → Link → Carrières */
+  position: absolute;
+  width: 68.65px;
+  height: 19px;
+  left: 1001.27px;
+  top: 26.5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.125px;
+  line-height: 20px;
+  /* or 132% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .head ul li:nth-child(8) {
+  /* Nav → List → Item → Link → Partenariat Paris 2024 */
+  position: absolute;
+  width: 166.75px;
+  height: 19px;
+  left: 1093.73px;
+  top: 26.5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.875px;
+  line-height: 20px;
+  /* or 134% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .head button {
+  cursor: pointer;
+}
+.void-test .head button:nth-of-type(1) {
+  /* Button - Recherche */
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 1278.27px;
+  top: 14px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 44px;
+  /* Img */
+}
+.void-test .head button:nth-of-type(1) img {
+  position: absolute;
+  width: 19.2px;
+  height: 19.2px;
+  left: calc(50% - 9.6px - 0px);
+  top: calc(50% - 9.6px + 0px);
+}
+.void-test .head button:nth-of-type(2) {
+  border: none;
+  background-color: transparent;
+  /* Button - global-panel-toggle → Img */
+}
+.void-test .head button:nth-of-type(2) img {
+  position: absolute;
+  width: 19.2px;
+  height: 19.2px;
+  left: 1332.27px;
+  top: calc(50% - 9.6px - 0.5px);
+}
+.void-test .head button:nth-of-type(3) {
+  /* Button - global-panel-toggle → Global */
+  position: absolute;
+  width: 48.73px;
+  height: 19px;
+  left: calc(50% - 24.365px + 663.83px);
+  top: 26.49px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.25px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border: none;
+  color: #000000;
+}
+.void-test .head button:nth-of-type(4) {
+  display: none;
+}
+.void-test .the-body {
+  /* Main */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 73px;
+  bottom: 296px;
+  background: #F5F5F5;
+}
+.void-test .the-body #top {
+  /* div#top */
+  position: absolute;
+  height: 576px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(./image-desktop/andrea-pompe-patient_20240222140549.jpg.png);
+}
+.void-test .the-body #top .css-gvc9bb {
+  /* div.css-gvc9bb */
+  position: absolute;
+  height: 452px;
+  left: 0px;
+  right: 0px;
+  top: 62px;
+}
+.void-test .the-body #top .css-gvc9bb .css-6koyso {
+  /* div.css-6koyso */
+  position: absolute;
+  height: 452px;
+  left: 128px;
+  right: 722px;
+  top: 0px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.void-test .the-body #top .css-gvc9bb .css-6koyso h1 {
+  /* Heading 1 → Journée des maladies */
+  position: absolute;
+  width: 512.61px;
+  height: 216px;
+  left: 32px;
+  top: 31.75px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44.4375px;
+  line-height: 72px;
+  /* or 162% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #top .css-gvc9bb .css-6koyso p {
+  /* À l'occasion de la Journée des maladies rares, il est plus important que jamais de continuer à rechercher un diagnostic, une innovation, un soutien et un accès équitables pour les personnes atteintes de maladies rares. */
+  position: absolute;
+  width: 519.28px;
+  height: 96px;
+  left: 32px;
+  top: 264px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 24px;
+  /* or 166% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #top .css-gvc9bb .css-6koyso button {
+  /* Button */
+  position: absolute;
+  width: 146.23px;
+  height: 44px;
+  left: 32px;
+  top: 376px;
+  border: none;
+  background: #7A00E6;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.void-test .the-body #top .css-gvc9bb .css-6koyso button a {
+  /* Link → En savoir plus */
+  position: absolute;
+  width: 98.43px;
+  height: 16px;
+  left: calc(50% - 49.215px + 0.1px);
+  top: 14px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.25px;
+  line-height: 16px;
+  /* identical to box height, or 112% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.void-test .the-body #main {
+  /* div#main */
+  position: absolute;
+  height: 5622.38px;
+  left: 128px;
+  right: 128px;
+  top: 624px;
+  background: #FFFFFF;
+  /* div.dotcom-card-list */
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(1) {
+  /* div.dotcom-content-block */
+  position: absolute;
+  height: 384.75px;
+  left: 0px;
+  right: 0px;
+  top: 48px;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(1) .css-psg3rt {
+  /* div.css-psg3rt */
+  position: absolute;
+  height: 384.75px;
+  left: 500px;
+  right: 0px;
+  top: 0px;
+  background: url(./image-desktop/the-meningitis-flag-new_20240209150428.jpg.png);
+  border-radius: 8px;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(1) h2 {
+  /* Heading 2 → Le drapeau de la lutte */
+  position: absolute;
+  width: 362.65px;
+  height: 108px;
+  left: 0px;
+  top: 0px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.4688px;
+  line-height: 54px;
+  /* or 161% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(1) p {
+  /* Créé en collaboration avec trois para-athlètes, Ellie Challis, Théo Curin, Davide Morana et plusieurs membres de la Meningitis Research Foundation / Confederation of Meningitis Organisations, le drapeau de la lutte contre les méningites vise à sensibiliser le public à une maladie qui reste encore, à ce jour, un problème majeur de santé publique à l’échelle mondiale. */
+  position: absolute;
+  width: 451.93px;
+  height: 168px;
+  left: 0px;
+  top: 132px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.875px;
+  line-height: 24px;
+  /* or 161% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(1) a:nth-of-type(1) {
+  /* Link → En savoir plus */
+  position: absolute;
+  width: 101.61px;
+  height: 20px;
+  left: 0px;
+  top: 326px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.75px;
+  line-height: 20px;
+  /* identical to box height, or 136% */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(1) a:nth-of-type(2) {
+  /* Link → Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 117.41px;
+  top: calc(50% - 8px + 143.62px);
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(1) a:nth-of-type(2) img {
+  /* Vector */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(2) {
+  position: absolute;
+  height: 348.5px;
+  left: 0px;
+  right: 0px;
+  top: 560.75px;
+  /* Button - Jouer la vidéo */
+  /* Heading 2 → Les femmes au sein de */
+  /* Paragraph */
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(2) .css-ub4jzp {
+  position: absolute;
+  height: 342px;
+  left: 0px;
+  right: 500px;
+  top: 0px;
+  background: url(./image-desktop/thumbnail-youtube-women-at-sanofi_20240209151008.jpg.png);
+  border-radius: 8px;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(2) button {
+  position: absolute;
+  left: 26.35%;
+  right: 68.58%;
+  top: 40.46%;
+  bottom: 42.32%;
+  background: #EFEFEF;
+  border-radius: 30px;
+  border: none;
+  /* Img */
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(2) button img {
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  left: calc(50% - 7.5px);
+  top: 20px;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(2) h2 {
+  position: absolute;
+  width: 375.61px;
+  height: 108px;
+  left: 732px;
+  top: 0px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.3281px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(2) p {
+  position: absolute;
+  width: 439.1px;
+  height: 120px;
+  left: 732px;
+  top: 132px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.875px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(2) a {
+  /* Link → En savoir plus */
+  /* Link → Img */
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(2) a:nth-of-type(1) {
+  position: absolute;
+  width: 101.61px;
+  height: 20px;
+  left: 732px;
+  top: 278px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.75px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(2) a:nth-of-type(2) {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 849.41px;
+  top: calc(50% - 8px + 113.75px);
+  /* Vector */
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(2) a:nth-of-type(2) img {
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.49%;
+  bottom: 12.49%;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(3) {
+  position: absolute;
+  height: 348.5px;
+  left: 0px;
+  right: 0px;
+  top: 1037.25px;
+  /* Button - Jouer la vidéo */
+  /* Heading 2 → 200 jours avant les Jeux */
+  /* Paragraph */
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(3) .css-t5r7u8 {
+  position: absolute;
+  height: 342px;
+  left: 500px;
+  right: 0px;
+  top: 0px;
+  background: url(./image-desktop/thumbnail-meningitis-vaskange-video_20240207161339.jpg.png);
+  border-radius: 8px;
+  /* thumbnail-meningitis-vaskange-video_20240207161339.jpg */
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(3) button {
+  position: absolute;
+  left: 68.58%;
+  right: 26.35%;
+  top: 40.46%;
+  bottom: 42.32%;
+  background: #EFEFEF;
+  border-radius: 30px;
+  border: none;
+  /* Img */
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(3) button img {
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  left: calc(50% - 7.5px);
+  top: 20px;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(3) h2 {
+  position: absolute;
+  width: 406.86px;
+  height: 108px;
+  left: 0px;
+  top: 0px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.6094px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(3) p {
+  position: absolute;
+  width: 398.78px;
+  height: 72px;
+  left: 0px;
+  top: 132px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(3) a {
+  /* Link → En savoir plus */
+  /* Link → Img */
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(3) a:nth-of-type(1) {
+  position: absolute;
+  width: 101.61px;
+  height: 20px;
+  left: 0px;
+  top: 230px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.75px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  text-decoration: none;
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(3) a:nth-of-type(2) {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 117.41px;
+  top: calc(50% - 8px + 65.75px);
+  /* Vector */
+}
+.void-test .the-body #main .dotcom-content-block:nth-child(3) a:nth-of-type(2) img {
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.48%;
+  bottom: 12.49%;
+}
+.void-test .the-body #main .dotcom-card-list {
+  position: absolute;
+  height: 688.88px;
+  left: 0px;
+  right: 0px;
+  top: 1513.75px;
+  /* div.MuiBox-root */
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) {
+  position: absolute;
+  left: 0px;
+  right: 800px;
+  top: 0px;
+  bottom: 0px;
+  border: 1px solid #C9C9C9;
+  border-radius: 8px;
+  /* div.elements-ds-1bm7awf */
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf {
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  /* div.elements-ds-1etv3an */
+  /* div.MuiBox-root */
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an {
+  position: absolute;
+  height: 472px;
+  left: 0px;
+  right: 0px;
+  top: 214.88px;
+  /* div.MuiBox-root */
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) {
+  position: absolute;
+  height: 148px;
+  left: 24px;
+  right: 24px;
+  top: 24px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) h3 {
+  position: absolute;
+  width: 191.7px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.3125px;
+  line-height: 36px;
+  /* identical to box height, or 161% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) p {
+  position: absolute;
+  width: 328.65px;
+  height: 96px;
+  left: 0px;
+  top: 52px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.625px;
+  line-height: 24px;
+  /* or 164% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) {
+  position: absolute;
+  height: 48px;
+  left: 24px;
+  right: 24px;
+  top: 400px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+  position: absolute;
+  width: 87.16px;
+  height: 20px;
+  left: 0px;
+  top: 26px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.625px;
+  line-height: 20px;
+  /* identical to box height, or 137% */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 102.96px;
+  top: calc(50% - 8px + 12px);
+  /* Vector */
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.48%;
+  bottom: 12.49%;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .MuiBox-root {
+  position: absolute;
+  height: 214.88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  /* div.css-1rg66ui */
+  /* Button - Jouer la vidéo */
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .MuiBox-root .css-1rg66ui {
+  position: absolute;
+  height: 214.88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(./image-desktop/thumbnail-youtube-virus-vs-bacteria_20240205091358.jpg.png);
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .MuiBox-root button {
+  position: absolute;
+  left: 42.15%;
+  right: 42.15%;
+  top: 36.04%;
+  bottom: 36.04%;
+  background: #EFEFEF;
+  border-radius: 30px;
+  border: none;
+  /* Vector */
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .MuiBox-root button img {
+  /* Img */
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  left: calc(50% - 7.5px);
+  top: 20px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) {
+  /* div.MuiBox-root */
+  box-sizing: border-box;
+  position: absolute;
+  left: 400px;
+  right: 400px;
+  top: 0px;
+  bottom: 0px;
+  border: 1px solid #C9C9C9;
+  border-radius: 8px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf {
+  /* div.elements-ds-1bm7awf */
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .css-1b7ghj7 {
+  /* div.css-1b7ghj7 */
+  position: absolute;
+  height: 214.88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(./image-desktop/div.css-1b7ghj7.png);
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an {
+  /* div.elements-ds-1etv3an */
+  position: absolute;
+  height: 472px;
+  left: 0px;
+  right: 0px;
+  top: 214.88px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 232px;
+  left: 24px;
+  right: 24px;
+  top: 24px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) p {
+  /* En obtenant la certification B Corp pour Entreprise Santé Grand Public en Amérique du Nord, en Allemagne, en Italie et en Amérique latine, nous faisons partie d'une communauté mondiale qui transforme le monde des affaires en une force pour le bien. */
+  position: absolute;
+  width: 328.87px;
+  height: 144px;
+  left: 0px;
+  top: 88px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.875px;
+  line-height: 24px;
+  /* or 161% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) h3 {
+  /* Heading 3 → Le parcours B Corp de Notre */
+  position: absolute;
+  width: 316.02px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.5px;
+  line-height: 36px;
+  /* or 160% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 48px;
+  left: 24px;
+  right: 24px;
+  top: 400px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+  /* Link → En savoir plus */
+  position: absolute;
+  width: 101.61px;
+  height: 20px;
+  left: 0px;
+  top: 26px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.75px;
+  line-height: 20px;
+  /* identical to box height, or 136% */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+  /* Link → Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 117.41px;
+  top: calc(50% - 8px + 12px);
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+  /* Vector */
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.48%;
+  bottom: 12.49%;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) {
+  /* div.MuiBox-root */
+  box-sizing: border-box;
+  position: absolute;
+  left: 800px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  border: 1px solid #C9C9C9;
+  border-radius: 8px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf {
+  /* div.elements-ds-1bm7awf */
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf > .MuiBox-root {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 214.88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf > .MuiBox-root .css-rybfls {
+  /* div.css-1b7ghj7 */
+  position: absolute;
+  height: 214.88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(./image-desktop/ngd-sleeping-sickness-thumbnail-youtube_20240130143837.jpg.png);
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf > .MuiBox-root button {
+  /* Button - Jouer la vidéo */
+  position: absolute;
+  left: 42.15%;
+  right: 42.15%;
+  top: 36.04%;
+  bottom: 36.04%;
+  background: #EFEFEF;
+  border-radius: 30px;
+  border: none;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf > .MuiBox-root button img {
+  /* Img */
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  left: calc(50% - 7.5px);
+  top: 20px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an {
+  /* div.elements-ds-1etv3an */
+  position: absolute;
+  height: 472px;
+  left: 0px;
+  right: 0px;
+  top: 214.88px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 376px;
+  left: 24px;
+  right: 24px;
+  top: 24px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) p {
+  /* Maladie tropicale négligée, la maladie du sommeil est généralement mortelle en l'absence de traitement. Les patients infectés par la variante la plus aiguë de la maladie, le T.b rhodesiense, n'ont malheureusement bénéficié que de peu d'innovations en matière de traitement. Mais l'espoir pointe à l'horizon. Pour ces patients, nous voyons le potentiel du premier traitement oral pour cette variante de la maladie, soutenant ainsi l'objectif d'élimination de la maladie du sommeil chez l’humain d'ici 2030. */
+  position: absolute;
+  width: 328.87px;
+  height: 288px;
+  left: 0px;
+  top: 88px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.625px;
+  line-height: 24px;
+  /* or 164% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) h3 {
+  /* Heading 3 → Maladie du sommeil : Ne */
+  position: absolute;
+  width: 272.32px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.3125px;
+  line-height: 36px;
+  /* or 161% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 48px;
+  left: 24px;
+  right: 24px;
+  top: 400px;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+  /* Link → En savoir plus */
+  position: absolute;
+  width: 101.61px;
+  height: 20px;
+  left: 0px;
+  top: 26px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.75px;
+  line-height: 20px;
+  /* identical to box height, or 136% */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+  /* Link → Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 117.41px;
+  top: calc(50% - 8px + 12px);
+}
+.void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+  /* Vector */
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.48%;
+  bottom: 12.49%;
+}
+.void-test .the-body #main .dotcom-articales-type-block {
+  /* div.dotcom-articles-type-block */
+  position: absolute;
+  height: 623.88px;
+  left: 0px;
+  right: 0px;
+  top: 2330.63px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .separator {
+  /* Separator */
+  position: absolute;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #C9C9C9;
+}
+.void-test .the-body #main .dotcom-articales-type-block h2 {
+  /* Heading 2 → Sanofi Today */
+  position: absolute;
+  width: 216.53px;
+  height: 54px;
+  left: 0px;
+  top: 49px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34.3125px;
+  line-height: 54px;
+  /* identical to box height, or 157% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-articales-type-block > a:nth-of-type(1) {
+  /* Link → Lisez nos derniers articles */
+  position: absolute;
+  width: 288.49px;
+  height: 36px;
+  right: 39.8px;
+  top: 49px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.125px;
+  line-height: 36px;
+  /* identical to box height, or 163% */
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-decoration: none;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-articales-type-block > a:nth-of-type(2) {
+  /* Link → Img */
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1160px;
+  top: calc(50% - 12px - 244.94px);
+}
+.void-test .the-body #main .dotcom-articales-type-block > a:nth-of-type(2) img {
+  /* Vector */
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.49%;
+  bottom: 12.48%;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel {
+  /* Region - carousel */
+  position: absolute;
+  height: 448.88px;
+  left: -8px;
+  right: -8px;
+  top: 175px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 {
+  /* Item 0 */
+  position: absolute;
+  width: 400px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root {
+  /* div.MuiBox-root */
+  box-sizing: border-box;
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  top: 1px;
+  bottom: 1px;
+  border: 1px solid #C9C9C9;
+  border-radius: 8px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf {
+  /* div.elements-ds-1bm7awf */
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .css-1y1l8st {
+  /* div.css-1y1l8st */
+  position: absolute;
+  height: 214.88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(./image-desktop/andrea-pompe.jpg\ .png);
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an {
+  /* div.elements-ds-1etv3an */
+  position: absolute;
+  height: 230px;
+  left: 0px;
+  right: 0px;
+  top: 214.87px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 134px;
+  left: 24px;
+  right: 24px;
+  top: 24px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) h4 {
+  /* Your Health */
+  position: absolute;
+  width: 74.19px;
+  height: 21px;
+  left: 0px;
+  top: 0px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.125px;
+  line-height: 21px;
+  /* identical to box height, or 160% */
+  display: flex;
+  align-items: center;
+  color: #434343;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) p {
+  /* 27 février 2024 */
+  position: absolute;
+  width: 96.08px;
+  height: 33px;
+  left: 0px;
+  top: 25px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  color: #434343;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) h3 {
+  /* Heading 3 → Journée des maladies rares */
+  position: absolute;
+  width: 304.69px;
+  height: 72px;
+  left: 0px;
+  top: 62px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.3125px;
+  line-height: 36px;
+  /* or 161% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 48px;
+  left: 24px;
+  right: 24px;
+  top: 158px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+  /* Link → Lire l'article */
+  position: absolute;
+  width: 87.16px;
+  height: 20px;
+  left: 0px;
+  top: 26px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.625px;
+  line-height: 20px;
+  /* identical to box height, or 137% */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+  /* Link → Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 102.96px;
+  top: calc(50% - 8px + 12px);
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+  /* Vector */
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.48%;
+  bottom: 12.49%;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 {
+  /* Item 1 */
+  position: absolute;
+  width: 400px;
+  left: 400px;
+  top: 0px;
+  bottom: 0px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root {
+  /* div.MuiBox-root */
+  box-sizing: border-box;
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  top: 1px;
+  bottom: 1px;
+  border: 1px solid #C9C9C9;
+  border-radius: 8px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf {
+  /* div.elements-ds-1bm7awf */
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .css-1xvr8mr {
+  /* div.css-1xvr8mr */
+  position: absolute;
+  height: 214.88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(./image-desktop/herobanner-nojargon-article-2_20240108100336.jpg.png);
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an {
+  /* div.elements-ds-1etv3an */
+  position: absolute;
+  height: 230px;
+  left: 0px;
+  right: 0px;
+  top: 214.87px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 134px;
+  left: 24px;
+  right: 24px;
+  top: 24px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) h4 {
+  /* Your Health */
+  position: absolute;
+  width: 74.19px;
+  height: 21px;
+  left: 0px;
+  top: 0px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.125px;
+  line-height: 21px;
+  /* identical to box height, or 160% */
+  display: flex;
+  align-items: center;
+  color: #434343;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) p {
+  /* 7 février 2024 */
+  position: absolute;
+  width: 88.33px;
+  height: 33px;
+  left: 0px;
+  top: 25px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  color: #434343;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) h3 {
+  /* Heading 3 → #NoJargon: Plongez dans le */
+  position: absolute;
+  width: 313.98px;
+  height: 72px;
+  left: 0px;
+  top: 62px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.875px;
+  line-height: 36px;
+  /* or 157% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 48px;
+  left: 24px;
+  right: 24px;
+  top: 158px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+  /* Link → Lire l'article */
+  position: absolute;
+  width: 87.16px;
+  height: 20px;
+  left: 0px;
+  top: 26px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.625px;
+  line-height: 20px;
+  /* identical to box height, or 137% */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+  /* Link → Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 102.96px;
+  top: calc(50% - 8px + 12px);
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+  /* Vector */
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.48%;
+  bottom: 12.49%;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-2 {
+  /* Item 2 */
+  position: absolute;
+  width: 400px;
+  left: 800px;
+  top: 0px;
+  bottom: 0px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-2 > .MuiBox-root {
+  /* div.MuiBox-root */
+  box-sizing: border-box;
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  top: 1px;
+  bottom: 1px;
+  border: 1px solid #C9C9C9;
+  border-radius: 8px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-2 > .MuiBox-root .elements-ds-1bm7awf {
+  /* div.elements-ds-1bm7awf */
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-2 > .MuiBox-root .elements-ds-1bm7awf .css-1ivmeva {
+  /* div.css-*/
+  position: absolute;
+  height: 214.88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(./image-desktop/cancer-and-work_banner_20240201085229.jpg.png);
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-2 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an {
+  /* div.elements-ds-1etv3an */
+  position: absolute;
+  height: 230px;
+  left: 0px;
+  right: 0px;
+  top: 214.87px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-2 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 134px;
+  left: 24px;
+  right: 24px;
+  top: 24px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-2 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) h4 {
+  /* Your Health */
+  position: absolute;
+  width: 74.19px;
+  height: 21px;
+  left: 0px;
+  top: 0px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.125px;
+  line-height: 21px;
+  /* identical to box height, or 160% */
+  display: flex;
+  align-items: center;
+  color: #434343;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-2 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) p {
+  /* 5 février 2024 */
+  position: absolute;
+  width: 89.15px;
+  height: 33px;
+  left: 0px;
+  top: 25px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  color: #434343;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-2 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) h3 {
+  /* Heading 3 → Cancer et travail : Agir */
+  position: absolute;
+  width: 247.38px;
+  height: 72px;
+  left: 0px;
+  top: 62px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.5px;
+  line-height: 36px;
+  /* or 160% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-2 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 48px;
+  left: 24px;
+  right: 24px;
+  top: 158px;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-2 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+  /* Link → Lire l'article */
+  position: absolute;
+  width: 87.16px;
+  height: 20px;
+  left: 0px;
+  top: 26px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.625px;
+  line-height: 20px;
+  /* identical to box height, or 137% */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-2 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+  /* Link → Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 102.96px;
+  top: calc(50% - 8px + 12px);
+}
+.void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-2 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+  /* Vector */
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.48%;
+  bottom: 12.49%;
+}
+.void-test .the-body #main .dotcom-press-release-list {
+  /* div.dotcom-press-releases-list */
+  position: absolute;
+  height: 1267px;
+  left: 0px;
+  right: 0px;
+  top: 3082.5px;
+}
+.void-test .the-body #main .dotcom-press-release-list h2 {
+  /* Heading 2 → Nos dernières informations */
+  position: absolute;
+  width: 456.15px;
+  height: 54px;
+  left: 0px;
+  top: 0px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.8906px;
+  line-height: 54px;
+  /* identical to box height, or 159% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-press-release-list .separator-1 {
+  /* Separator */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 86px;
+  bottom: 1180px;
+  background: #C9C9C9;
+}
+.void-test .the-body #main .dotcom-press-release-list span:nth-of-type(1) {
+  /* 24 février 2024 */
+  position: absolute;
+  width: 99.87px;
+  height: 21px;
+  left: 32px;
+  top: 135px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.2344px;
+  line-height: 21px;
+  /* identical to box height, or 159% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-press-release-list p:nth-of-type(1) {
+  /* Communiqué : Résultats de phase II montrent que le rilzabrutinib permet de réduire rapidement la sévérité des démangeaisons causées par l’urticaire chronique spontanée et d’améliorer significativement l’activité de la maladie chez l’adulte */
+  position: absolute;
+  width: 911.63px;
+  height: 144px;
+  left: 32px;
+  top: 168px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.3125px;
+  line-height: 36px;
+  /* or 161% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(1) {
+  /* Link → Lire le communiqué */
+  position: absolute;
+  width: 146.88px;
+  height: 20px;
+  left: 32px;
+  top: 330px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(2) {
+  /* Link → Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 194.68px;
+  top: calc(50% - 8px - 293.5px);
+  margin-top: 15px;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(2) img {
+  /* Vector */
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.48%;
+  bottom: 12.49%;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(3) {
+  /* Link - link */
+  position: absolute;
+  width: 44px;
+  right: 32.01px;
+  top: 135px;
+  bottom: 1088px;
+  border: 1px solid #7A00E6;
+  border-radius: 9999px;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(3) img {
+  /* Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: calc(50% - 8px);
+  top: calc(50% - 8px);
+}
+.void-test .the-body #main .dotcom-press-release-list .separator-2 {
+  /* Separator */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 400px;
+  bottom: 866px;
+  background: #C9C9C9;
+}
+.void-test .the-body #main .dotcom-press-release-list span:nth-of-type(2) {
+  /* 24 février 2024 */
+  position: absolute;
+  width: 99.87px;
+  height: 21px;
+  left: 32px;
+  top: 449px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.2344px;
+  line-height: 21px;
+  /* identical to box height, or 159% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-press-release-list p:nth-of-type(2) {
+  /* Media Update: Dupixent® continues scientific leadership with late-breaking results showing reduced airway inflammation and mucus plugging in adults with uncontrolled moderate-to-severe asthma */
+  position: absolute;
+  width: 929.5px;
+  height: 108px;
+  left: 32px;
+  top: 482px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.3125px;
+  line-height: 36px;
+  /* or 161% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(4) {
+  /* Link → Lire le communiqué */
+  position: absolute;
+  width: 146.88px;
+  height: 20px;
+  left: 32px;
+  top: 608px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(5) {
+  /* Link → Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 194.68px;
+  top: calc(50% - 8px - 15.5px);
+  margin-top: 15px;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(5) img {
+  /* Vector */
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.48%;
+  bottom: 12.49%;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(6) {
+  /* Link - link */
+  position: absolute;
+  width: 44px;
+  right: 32.01px;
+  top: 449px;
+  bottom: 774px;
+  border: 1px solid #7A00E6;
+  border-radius: 9999px;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(6) img {
+  /* Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: calc(50% - 8px);
+  top: calc(50% - 8px);
+}
+.void-test .the-body #main .dotcom-press-release-list .separator-3 {
+  /* Separator */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 678px;
+  bottom: 588px;
+  background: #C9C9C9;
+}
+.void-test .the-body #main .dotcom-press-release-list span:nth-of-type(3) {
+  /* 23 février 2024 */
+  position: absolute;
+  width: 99.61px;
+  height: 21px;
+  left: 32px;
+  top: 727px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.2344px;
+  line-height: 21px;
+  /* identical to box height, or 159% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-press-release-list p:nth-of-type(3) {
+  /* Communiqué de presse : Dépôt du Document d’Enregistrement Universel 2023, contenant le Rapport Financier Annuel, et du « Form 20-F » américain */
+  position: absolute;
+  width: 886.6px;
+  height: 72px;
+  left: 32px;
+  top: 760px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.6875px;
+  line-height: 36px;
+  /* or 159% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(7) {
+  /* Link → Lire le communiqué */
+  position: absolute;
+  width: 146.88px;
+  height: 20px;
+  left: 32px;
+  top: 850px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(8) {
+  /* Link → Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 194.68px;
+  top: calc(50% - 8px + 226.5px);
+  margin-top: 15px;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(8) img {
+  /* Vector */
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.48%;
+  bottom: 12.49%;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(9) {
+  /* Link - link */
+  box-sizing: border-box;
+  position: absolute;
+  width: 44px;
+  right: 32.01px;
+  top: 727px;
+  bottom: 496px;
+  border: 1px solid #7A00E6;
+  border-radius: 9999px;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(9) img {
+  /* Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: calc(50% - 8px);
+  top: calc(50% - 8px);
+}
+.void-test .the-body #main .dotcom-press-release-list .separator-4 {
+  /* Separator */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 920px;
+  bottom: 346px;
+  background: #C9C9C9;
+}
+.void-test .the-body #main .dotcom-press-release-list span:nth-of-type(4) {
+  /* 23 février 2024 */
+  position: absolute;
+  width: 99.61px;
+  height: 21px;
+  left: 32px;
+  top: 969px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.2344px;
+  line-height: 21px;
+  /* identical to box height, or 159% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-press-release-list p:nth-of-type(4) {
+  /* Communiqué de presse : La FDA accorde un examen prioritaire à la demande de licence de produits biologique relative à Dupixent® pour le traitement de la BPCO avec inflammation de type 2 */
+  position: absolute;
+  width: 910.31px;
+  height: 108px;
+  left: 32px;
+  top: 1002px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.5px;
+  line-height: 36px;
+  /* or 160% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(10) {
+  /* Link → Lire le communiqué */
+  position: absolute;
+  width: 146.88px;
+  height: 20px;
+  left: 32px;
+  top: 1128px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(11) {
+  /* Link → Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 194.68px;
+  top: calc(50% - 8px + 504.5px);
+  margin-top: 15px;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(11) img {
+  /* Vector */
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.48%;
+  bottom: 12.49%;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(12) {
+  /* Link - link */
+  position: absolute;
+  width: 44px;
+  right: 32.01px;
+  top: 969px;
+  bottom: 254px;
+  border: 1px solid #7A00E6;
+  border-radius: 9999px;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(12) img {
+  /* Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: calc(50% - 8px);
+  top: calc(50% - 8px);
+}
+.void-test .the-body #main .dotcom-press-release-list .separator-5 {
+  /* Separator */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 1198px;
+  bottom: 68px;
+  background: #C9C9C9;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(13) {
+  /* Link → Voir tous les communiqués de presse */
+  position: absolute;
+  width: 412.4px;
+  height: 36px;
+  right: 39.8px;
+  top: 1231px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.3125px;
+  line-height: 36px;
+  /* identical to box height, or 161% */
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(14) {
+  /* Link → Img */
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1160px;
+  top: calc(50% - 12px + 615.5px);
+}
+.void-test .the-body #main .dotcom-press-release-list a:nth-of-type(14) img {
+  /* Vector */
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.49%;
+  bottom: 12.48%;
+}
+.void-test .the-body #main .second-dotcom-card-list {
+  /* div.dotcom-card-list */
+  position: absolute;
+  height: 718.88px;
+  left: 0px;
+  right: 0px;
+  top: 4477.5px;
+}
+.void-test .the-body #main .second-dotcom-card-list h2 {
+  /* Heading 2 → Découvrir plus */
+  position: absolute;
+  width: 243.89px;
+  height: 54px;
+  left: 0px;
+  top: -10px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.8906px;
+  line-height: 54px;
+  /* identical to box height, or 159% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 {
+  /* div.MuiBox-root */
+  box-sizing: border-box;
+  position: absolute;
+  left: 0px;
+  right: 800px;
+  top: 78px;
+  bottom: 0px;
+  border: 1px solid #C9C9C9;
+  border-radius: 8px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf {
+  /* div.elements-ds-1bm7awf */
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .css-jeicif {
+  /* div.css-jeicif */
+  position: absolute;
+  height: 214.88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(./image-desktop/diversity-equity-inclusion-report_20230605090726.jpg.png);
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an {
+  /* div.elements-ds-1etv3an */
+  position: absolute;
+  height: 424px;
+  left: 0px;
+  right: 0px;
+  top: 214.88px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 328px;
+  left: 24px;
+  right: 24px;
+  top: 24px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) h3 {
+  /* Heading 3 → Rapport diversité, équité et */
+  position: absolute;
+  width: 306.18px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.5px;
+  line-height: 36px;
+  /* or 160% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) p {
+  /* Au cours de la première année complète de notre nouvelle stratégie People & Culture, les enjeux de Diversité, Équité et Inclusion (DE&I) ont occupé le devant de la scène. Ce rapport célèbre les progrès concrets que nous avons réalisés pour refléter la diversité dans nos équipes dirigeantes, libérer tout le potentiel de nos collaborateurs et collaboratrices et avoir un impact sur l’environnement de travail mais aussi au-delà. */
+  position: absolute;
+  width: 328.22px;
+  height: 240px;
+  left: 0px;
+  top: 88px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.625px;
+  line-height: 24px;
+  /* or 164% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 48px;
+  left: 24px;
+  right: 24px;
+  top: 352px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+  /* Link → Lisez le document */
+  position: absolute;
+  width: 134.76px;
+  height: 20px;
+  left: 0px;
+  top: 26px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+  /* Link → Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 150.56px;
+  top: calc(50% - 8px + 12px);
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+  /* Vector */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 {
+  /* div.MuiBox-root */
+  box-sizing: border-box;
+  position: absolute;
+  left: 400px;
+  right: 400px;
+  top: 78px;
+  bottom: 0px;
+  border: 1px solid #C9C9C9;
+  border-radius: 8px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf {
+  /* div.elements-ds-1bm7awf */
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .css-kwy9qh {
+  /* div.css-kwy9qh */
+  position: absolute;
+  height: 214.88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(./image-desktop/herobanner-our-legacy-2_20230515114155.jpg.png);
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an {
+  /* div.elements-ds-1etv3an */
+  position: absolute;
+  height: 424px;
+  left: 0px;
+  right: 0px;
+  top: 214.88px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 124px;
+  left: 24px;
+  right: 24px;
+  top: 24px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) h3 {
+  /* Heading 3 → Notre héritage */
+  position: absolute;
+  width: 163.93px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.875px;
+  line-height: 36px;
+  /* identical to box height, or 157% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) p {
+  /* Notre societé d’aujourd’hui s’appuie sur un héritage qui consiste à transformer l’impossible en possible. */
+  position: absolute;
+  width: 307.1px;
+  height: 72px;
+  left: 0px;
+  top: 52px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.625px;
+  line-height: 24px;
+  /* or 164% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 48px;
+  left: 24px;
+  right: 24px;
+  top: 352px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+  /* Link → En savoir plus sur notre histoire */
+  position: absolute;
+  width: 232.56px;
+  height: 20px;
+  left: 0px;
+  top: 26px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.75px;
+  line-height: 20px;
+  /* identical to box height, or 136% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+  /* Link → Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 248.36px;
+  top: calc(50% - 8px + 12px);
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+  /* Vector */
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 12.48%;
+  bottom: 12.49%;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 {
+  /* div.MuiBox-root */
+  box-sizing: border-box;
+  position: absolute;
+  left: 800px;
+  right: 0px;
+  top: 78px;
+  bottom: 0px;
+  border: 1px solid #C9C9C9;
+  border-radius: 8px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf {
+  /* div.elements-ds-1bm7awf */
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .css-nk641s {
+  /* div.css-nk641s */
+  position: absolute;
+  height: 214.88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(./image-desktop/Integrated-Report-202302_20230612091817.jpg.png);
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an {
+  /* div.elements-ds-1etv3an */
+  position: absolute;
+  height: 424px;
+  left: 0px;
+  right: 0px;
+  top: 214.88px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 124px;
+  left: 24px;
+  right: 24px;
+  top: 24px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) h3 {
+  /* Heading 3 → Notre rapport intégré 2022 */
+  position: absolute;
+  width: 303.9px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.875px;
+  line-height: 36px;
+  /* identical to box height, or 157% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) p {
+  /* Découvrez comment nous rendons possible l'impossible pour améliorer la vie des gens dans le monde. */
+  position: absolute;
+  width: 316.46px;
+  height: 72px;
+  left: 0px;
+  top: 52px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.625px;
+  line-height: 24px;
+  /* or 164% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 48px;
+  left: 24px;
+  right: 24px;
+  top: 352px;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+  /* Link → Lire le rapport */
+  position: absolute;
+  width: 105.47px;
+  height: 20px;
+  left: 0px;
+  top: 26px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.875px;
+  line-height: 20px;
+  /* identical to box height, or 134% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+  /* Link → Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 121.27px;
+  top: calc(50% - 8px + 12px);
+}
+.void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+  /* Vector */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.void-test .the-body #main .dotcom-focused-block {
+  /* div.dotcom-focused-block */
+  position: absolute;
+  height: 322px;
+  left: 0px;
+  right: 0px;
+  top: 5312.38px;
+}
+.void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac {
+  /* div#e1eded33-d92a-44b9-8412-1920a9a0b4ac */
+  position: absolute;
+  height: 322px;
+  left: 0px;
+  right: 0px;
+  top: -12px;
+  background: #F5F5F5;
+}
+.void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(1) {
+  /* div.MuiGrid2-root */
+  position: absolute;
+  height: 78px;
+  left: 32px;
+  right: 32px;
+  top: calc(50% - 39px - 58px);
+}
+.void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(1) h2 {
+  /* Heading 2 → Construisez votre carrière avec Sanofi */
+  position: absolute;
+  width: 636.58px;
+  height: 54px;
+  left: calc(50% - 318.29px + 0.1px);
+  top: 12px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.75px;
+  line-height: 54px;
+  /* identical to box height, or 160% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+.void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(2) {
+  /* div.MuiGrid2-root */
+  position: absolute;
+  height: 48px;
+  left: 218.66px;
+  right: 218.68px;
+  top: calc(55% - 24px + 5px);
+}
+.void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(2) p {
+  /* Vous serez surpris de voir tout ce que vous pouvez accomplir chez Entreprise. Découvrez votre avenir ici. */
+  position: absolute;
+  width: 723.77px;
+  height: 24px;
+  left: calc(50% - 361.885px + 0.11px);
+  top: 12px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 24px;
+  /* identical to box height, or 166% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0D0D0D;
+}
+.void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(3) {
+  /* div.MuiGrid2-root */
+  position: absolute;
+  height: 68px;
+  left: 32px;
+  right: 32px;
+  top: calc(60% - 34px + 63px);
+}
+.void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(3) button {
+  /* Button */
+  position: absolute;
+  width: 272.73px;
+  left: calc(50% - 136.365px - 0.01px);
+  top: 12px;
+  bottom: 12px;
+  border: none;
+  background: #7A00E6;
+  border-radius: 4px;
+}
+.void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(3) button img {
+  /* Img */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: calc(50% - 8px - 104.37px);
+  top: calc(50% - 8px);
+}
+.void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(3) button a {
+  /* Link → Accéder au portail Carrières */
+  position: absolute;
+  width: 202.93px;
+  height: 16px;
+  left: calc(50% - 101.465px + 11.1px);
+  top: 14px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.75px;
+  line-height: 16px;
+  /* identical to box height, or 108% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.void-test .the-footer {
+  /* Footer */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 6447.38px;
+  bottom: 0px;
+  background: #FFFFFF;
+}
+.void-test .the-footer .css-oonhgn {
+  /* div.css-oonhgn */
+  position: absolute;
+  height: 88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #000000;
+}
+.void-test .the-footer .css-oonhgn .MuiBox-root {
+  /* div.MuiBox-root */
+  position: absolute;
+  height: 40.5px;
+  left: 28px;
+  right: 794.05px;
+  top: 23.75px;
+}
+.void-test .the-footer .css-oonhgn .MuiBox-root img {
+  /* SVG - Sanofi */
+  position: absolute;
+  width: 80px;
+  height: 22px;
+  left: 4px;
+  top: 4px;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b {
+  /* div.css-wx3a3b */
+  position: absolute;
+  height: 56px;
+  left: 705.95px;
+  right: 250.17px;
+  top: 16px;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b span {
+  /* Suivez nous */
+  position: absolute;
+  width: 88.08px;
+  height: 24px;
+  left: 0px;
+  top: 16px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul {
+  /* List */
+  position: absolute;
+  width: 376px;
+  height: 56px;
+  left: 103.88px;
+  top: calc(20% - 28px);
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(1) {
+  /* Item → Link - Visitez le compte Linkedin de Sanofi */
+  box-sizing: border-box;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  top: calc(50% - 20px);
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(1) img {
+  /* Img */
+  position: absolute;
+  width: 19.2px;
+  height: 19.2px;
+  left: calc(50% - 9.6px + 0px);
+  top: calc(50% - 9.6px - 0.01px);
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(2) {
+  /* Item → Link - Visitez le compte Twitter de Sanofi */
+  box-sizing: border-box;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 56px;
+  top: calc(50% - 20px);
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(2) img {
+  /* Img */
+  position: absolute;
+  width: 19.2px;
+  height: 19.2px;
+  left: calc(50% - 9.6px + 0px);
+  top: calc(50% - 9.6px - 0.01px);
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(3) {
+  /* Item → Link - Visitez le compte Instagram de Sanofi */
+  box-sizing: border-box;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 112px;
+  top: calc(50% - 20px);
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(3) img {
+  /* Img */
+  position: absolute;
+  width: 19.2px;
+  height: 19.2px;
+  left: calc(50% - 9.6px + 0px);
+  top: calc(50% - 9.6px - 0.01px);
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(4) {
+  /* Item → Link - Visitez le compte Facebook de Sanofi */
+  box-sizing: border-box;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 168px;
+  top: calc(50% - 20px);
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(4) img {
+  /* Img */
+  position: absolute;
+  width: 16.2px;
+  height: 19.2px;
+  left: calc(50% - 9.6px + 0px);
+  top: calc(50% - 9.6px - 0.01px);
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(5) {
+  /* Item → Link - Visitez le compte TikTok de Sanofi */
+  box-sizing: border-box;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 224px;
+  top: calc(50% - 20px);
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(5) img {
+  /* Img */
+  position: absolute;
+  width: 19.2px;
+  height: 19.2px;
+  left: calc(50% - 9.6px - 0px);
+  top: calc(50% - 9.6px - 0.01px);
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(6) {
+  /* Item → Link - Visitez la chaine Youtube de Sanofi */
+  box-sizing: border-box;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 280px;
+  top: calc(50% - 20px);
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(6) img {
+  /* Img */
+  position: absolute;
+  width: 19.2px;
+  height: 19.2px;
+  left: calc(50% - 9.6px - 0px);
+  top: calc(50% - 9.6px - 0.01px);
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(7) {
+  /* Item → Link - Notre flux RSS */
+  box-sizing: border-box;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 336px;
+  top: calc(50% - 20px);
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+}
+.void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(7) img {
+  /* Img */
+  position: absolute;
+  width: 19.2px;
+  height: 19.2px;
+  left: calc(50% - 9.6px - 0px);
+  top: calc(50% - 9.6px - 0.01px);
+}
+.void-test .the-footer .css-oonhgn .css-cnp892 {
+  /* div.css-cnp892 */
+  position: absolute;
+  height: 29.2px;
+  left: 1249.83px;
+  right: 32px;
+  top: 29.39px;
+}
+.void-test .the-footer .css-oonhgn .css-cnp892 button:nth-child(1) {
+  /* Button - Haut de la page → Haut de la page */
+  position: absolute;
+  width: 139.35px;
+  height: 18px;
+  left: calc(40% - 56.675px - 17.41px);
+  top: calc(50% - 9px - 0.25px);
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background: transparent;
+  border: none;
+}
+.void-test .the-footer .css-oonhgn .css-cnp892 button:nth-child(2) {
+  /* Button - Haut de la page → Img */
+  position: absolute;
+  height: 19.2px;
+  left: 125.97px;
+  right: 13px;
+  top: 5px;
+  background: transparent;
+  border: none;
+}
+.void-test .the-footer .css-oonhgn .css-cnp892 button:nth-child(2) img {
+  /* Vector */
+  position: absolute;
+  left: 12.49%;
+  right: 12.49%;
+  top: 6.26%;
+  bottom: 6.25%;
+}
+.void-test .the-footer .css-1boijxs {
+  /* div.css-1boijxs */
+  position: absolute;
+  height: 208px;
+  left: 0px;
+  right: 0px;
+  top: 88px;
+  background: #FFFFFF;
+}
+.void-test .the-footer .css-1boijxs .Nav {
+  /* Nav */
+  position: absolute;
+  left: 32px;
+  right: 32px;
+  top: 32px;
+  bottom: 88px;
+}
+.void-test .the-footer .css-1boijxs .Nav li:nth-child(1) {
+  /* List → Item → Link → Contact */
+  position: absolute;
+  width: 59.8px;
+  height: 24px;
+  left: 0px;
+  top: 8px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.375px;
+  line-height: 24px;
+  /* identical to box height, or 156% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-footer .css-1boijxs .Nav li:nth-child(2) {
+  /* List → Item → Link → Mentions légales */
+  position: absolute;
+  width: 121.71px;
+  height: 24px;
+  left: 99.6px;
+  top: 8px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.75px;
+  line-height: 24px;
+  /* identical to box height, or 163% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-footer .css-1boijxs .Nav li:nth-child(3) {
+  /* List → Item → Link → Vie Privée et Données Personnelles */
+  position: absolute;
+  width: 254.52px;
+  height: 24px;
+  left: 261.11px;
+  top: 8px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.625px;
+  line-height: 24px;
+  /* identical to box height, or 164% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-footer .css-1boijxs .Nav li:nth-child(4) {
+  /* List → Item → Link → Politique des cookies */
+  position: absolute;
+  width: 152.81px;
+  height: 24px;
+  left: 555.43px;
+  top: 8px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.625px;
+  line-height: 24px;
+  /* identical to box height, or 164% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-footer .css-1boijxs .Nav li:nth-child(5) {
+  /* List → Item → Link → Sanofi Today */
+  position: absolute;
+  width: 93.55px;
+  height: 24px;
+  left: 748.04px;
+  top: 8px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.125px;
+  line-height: 24px;
+  /* identical to box height, or 159% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-footer .css-1boijxs .Nav li:nth-child(6) {
+  /* List → Item → Link → Nos publications */
+  position: absolute;
+  width: 121.28px;
+  height: 24px;
+  left: 881.39px;
+  top: 8px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.75px;
+  line-height: 24px;
+  /* identical to box height, or 163% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-footer .css-1boijxs .Nav li:nth-child(7) {
+  /* List → Item → Link → Plan du site */
+  position: absolute;
+  width: 83.57px;
+  height: 24px;
+  left: 1042.47px;
+  top: 8px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.25px;
+  line-height: 24px;
+  /* identical to box height, or 168% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-footer .css-1boijxs .Nav li:nth-child(8) {
+  /* List → Item → Link → Annuaire */
+  position: absolute;
+  width: 65.18px;
+  height: 24px;
+  left: 1165.84px;
+  top: 8px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-footer .css-1boijxs .Nav li:nth-child(9) {
+  /* List → Item → Link → Accessibilité : conformité partielle */
+  position: absolute;
+  width: 245.61px;
+  height: 24px;
+  left: 0px;
+  top: 56px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 24px;
+  /* identical to box height, or 166% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-footer .css-1boijxs .Nav li:nth-child(10) {
+  /* List → Item → Link → Code de Conduite */
+  position: absolute;
+  width: 133.02px;
+  height: 24px;
+  left: 285.41px;
+  top: 56px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.125px;
+  line-height: 24px;
+  /* identical to box height, or 159% */
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+.void-test .the-footer .css-1boijxs .MuiTypography-root {
+  /* span.MuiTypography-root */
+  position: absolute;
+  height: 24px;
+  left: 32px;
+  right: 32px;
+  top: 152px;
+}
+
+/* Test Mobile */
+@media (max-Width: 420px) {
+  body .void-test {
+    max-width: 390px;
+    position: relative;
+    height: 9528.98px;
+    overflow-x: hidden;
+  }
+  body .void-test .head {
+    /* Header */
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 9465.98px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #F5F5F5;
+  }
+  body .void-test .head a h1 {
+    /* Heading 1 → Journée des */
+    position: absolute;
+    width: 85px;
+    height: 49px;
+    left: 152px;
+    top: -17.5px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.6094px;
+    line-height: 54px;
+    /* or 161% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .head ul {
+    display: none;
+  }
+  body .void-test .head button {
+    cursor: pointer;
+  }
+  body .void-test .head button:nth-of-type(1) {
+    /* Button - Recherche */
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 342px;
+    top: 9px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 44px;
+  }
+  body .void-test .head button:nth-of-type(1) img {
+    position: absolute;
+    width: 19.2px;
+    height: 19.2px;
+    left: calc(50% - 9.6px - 0px);
+    top: calc(50% - 9.6px + 0px);
+  }
+  body .void-test .head button:nth-of-type(2) {
+    display: none;
+  }
+  body .void-test .head button:nth-of-type(3) {
+    display: none;
+  }
+  body .void-test .head button:nth-of-type(4) {
+    display: block;
+    border: none;
+    background-color: transparent;
+  }
+  body .void-test .head button:nth-of-type(4) img {
+    position: absolute;
+    width: 19.2px;
+    height: 19.2px;
+    left: calc(50% - 12px - 167px);
+    top: calc(50% - 12px - 0.5px);
+  }
+  body .void-test .the-body {
+    /* Main */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 73px;
+    bottom: 296px;
+    background: #F5F5F5;
+  }
+  body .void-test .the-body #top {
+    /* div#top */
+    position: absolute;
+    height: 576px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(./image-mobile/andrea-pompe-patient_20240222140549.jpg.png);
+  }
+  body .void-test .the-body #top .css-gvc9bb {
+    /* div.MuiContainer-root */
+    position: absolute;
+    width: 390px;
+    height: 472px;
+    left: calc(50% - 195px);
+    top: 232px;
+  }
+  body .void-test .the-body #top .css-gvc9bb .css-6koyso {
+    /* div.css-6koyso */
+    position: absolute;
+    height: 468px;
+    left: 16px;
+    right: 16px;
+    top: 2px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #top .css-gvc9bb .css-6koyso h1 {
+    /* Heading 1 → Journée des */
+    position: absolute;
+    width: 292.63px;
+    height: 216px;
+    left: 16px;
+    top: 16px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.6094px;
+    line-height: 54px;
+    /* or 161% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #top .css-gvc9bb .css-6koyso p {
+    /* À l'occasion de la Journée des maladies rares, il est plus important que jamais de continuer à rechercher un diagnostic, une innovation, un soutien et un accès équitables pour les personnes atteintes de maladies rares. */
+    position: absolute;
+    width: 307.34px;
+    height: 144px;
+    left: 16px;
+    top: 248px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #top .css-gvc9bb .css-6koyso button {
+    /* Button */
+    position: absolute;
+    width: 146.23px;
+    height: 44px;
+    left: 16px;
+    top: 408px;
+    background: #7A00E6;
+    border-radius: 4px;
+  }
+  body .void-test .the-body #top .css-gvc9bb .css-6koyso button a {
+    /* Link → En savoir plus */
+    position: absolute;
+    width: 98.43px;
+    height: 16px;
+    left: calc(50% - 49.215px + 0.1px);
+    top: 14px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.25px;
+    line-height: 16px;
+    /* identical to box height, or 112% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  body .void-test .the-body #main {
+    /* div#main */
+    position: absolute;
+    height: 7870.28px;
+    left: 16px;
+    right: 16px;
+    top: 734px;
+    background: #FFFFFF;
+    /* div.dotcom-card-list */
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(1) {
+    /* div.dotcom-content-block */
+    position: absolute;
+    height: 549.38px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(1) .css-psg3rt {
+    /* div.css-psg3rt */
+    /* the-meningitis-flag-new_20240209150428.jpg */
+    position: absolute;
+    height: 201.38px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(./image-mobile/the-meningitis-flag-new_20240209150428.jpg\ .png);
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(1) h2 {
+    /* Heading 2 → Le drapeau de la lutte */
+    position: absolute;
+    width: 282.11px;
+    height: 84px;
+    left: 0px;
+    top: 225.13px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.0312px;
+    line-height: 42px;
+    /* or 161% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(1) p {
+    /* Créé en collaboration avec trois para-athlètes, Ellie Challis, Théo Curin, Davide Morana et plusieurs membres de la Meningitis Research Foundation / Confederation of Meningitis Organisations, le drapeau de la lutte contre les méningites vise à sensibiliser le public à une maladie qui reste encore, à ce jour, un problème majeur de santé publique à l’échelle mondiale. */
+    position: absolute;
+    width: 344.33px;
+    height: 192px;
+    left: 0px;
+    top: 321.38px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.875px;
+    line-height: 24px;
+    /* or 161% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(1) a:nth-of-type(1) {
+    /* Link → En savoir plus */
+    position: absolute;
+    width: 101.61px;
+    height: 20px;
+    left: 0px;
+    top: 527.38px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.75px;
+    line-height: 20px;
+    /* identical to box height, or 136% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(1) a:nth-of-type(2) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 117.41px;
+    top: calc(50% - 8px + 262.69px);
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(1) a:nth-of-type(2) img {
+    /* Vector */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(2) {
+    /* div.dotcom-content-block */
+    position: absolute;
+    height: 507.88px;
+    left: 0px;
+    right: 0px;
+    top: 613.38px;
+    /* Heading 2 → Les femmes au sein de */
+    /* Paragraph */
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(2) .css-ub4jzp {
+    /* div.css-ub4jzp */
+    position: absolute;
+    height: 201.38px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    border-radius: 8px;
+    background: url(./image-mobile/thumbnail-youtube-women-at-sanofi_20240209151008.jpg.png);
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(2) button {
+    /* Button - Jouer la vidéo */
+    position: absolute;
+    left: 41.62%;
+    right: 41.62%;
+    top: 13.92%;
+    bottom: 74.27%;
+    background: #EFEFEF;
+    border-radius: 30px;
+    /* Img */
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(2) button img {
+    /* Img */
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    left: calc(50% - 7.5px);
+    top: 20px;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(2) h2 {
+    /* Heading 2 → Les femmes au sein de */
+    position: absolute;
+    width: 292.18px;
+    height: 84px;
+    left: 0px;
+    top: 231.62px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.9219px;
+    line-height: 42px;
+    /* or 162% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(2) p {
+    /* Rencontrez Cristina Zamora, notre cheffe de projet pour les opérations de R&D en Amérique du Nord et l'une des nombreuses scientifiques inspirantes qui contribuent à renforcer la prochaine génération de femmes leaders dans le domaine de la santé et au-delà. */
+    position: absolute;
+    width: 352.04px;
+    height: 144px;
+    left: 0px;
+    top: 327.87px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.125px;
+    line-height: 24px;
+    /* or 159% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(2) a {
+    /* Link → En savoir plus */
+    /* Link → Img */
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(2) a:nth-of-type(1) {
+    /* Link → En savoir plus */
+    position: absolute;
+    width: 101.61px;
+    height: 20px;
+    left: 0px;
+    top: 485.87px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.75px;
+    line-height: 20px;
+    /* identical to box height, or 136% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(2) a:nth-of-type(2) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 117.41px;
+    top: calc(50% - 8px + 241.93px);
+    /* Vector */
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(2) a:nth-of-type(2) img {
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.49%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(3) {
+    /* div.dotcom-content-block */
+    position: absolute;
+    height: 459.88px;
+    left: 0px;
+    right: 0px;
+    top: 1185.25px;
+    /* Button - Jouer la vidéo */
+    /* Heading 2 → 200 jours avant les Jeux */
+    /* Paragraph */
+    /* Link → Img */
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(3) .css-t5r7u8 {
+    /* div.css-t5r7u8 */
+    position: absolute;
+    height: 201.38px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(./image-mobile/thumbnail-meningitis-vaskange-video_20240207161339.jpg.png);
+    border-radius: 8px;
+    /* thumbnail-meningitis-vaskange-video_20240207161339.jpg */
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(3) button {
+    /* Button - Jouer la vidéo */
+    position: absolute;
+    left: 41.62%;
+    right: 41.62%;
+    top: 15.37%;
+    bottom: 71.58%;
+    background: #EFEFEF;
+    border-radius: 30px;
+    /* Img */
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(3) button img {
+    /* Img */
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    left: calc(50% - 7.5px);
+    top: 20px;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(3) h2 {
+    /* Heading 2 → 200 jours avant les Jeux */
+    position: absolute;
+    width: 316.49px;
+    height: 84px;
+    left: 0px;
+    top: 231.63px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.25px;
+    line-height: 42px;
+    /* or 160% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(3) p {
+    /* Si vous n'avez pas encore entendu parler du #DrapeauMéningites, regardez la vidéo de Vaskange et découvrez la signification de chaque couleur. */
+    position: absolute;
+    width: 357.33px;
+    height: 96px;
+    left: 0px;
+    top: 327.88px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.75px;
+    line-height: 24px;
+    /* or 163% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(3) a:nth-of-type(1) {
+    /* Link → En savoir plus */
+    position: absolute;
+    width: 101.61px;
+    height: 20px;
+    left: 0px;
+    top: 437.88px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.75px;
+    line-height: 20px;
+    /* identical to box height, or 136% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(3) a:nth-of-type(2) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 117.41px;
+    top: calc(50% - 8px + 217.94px);
+    /* Vector */
+  }
+  body .void-test .the-body #main .dotcom-content-block:nth-child(3) a:nth-of-type(2) img {
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.48%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .dotcom-card-list {
+    /* div.dotcom-card-list */
+    position: absolute;
+    height: 1748.75px;
+    left: 0px;
+    right: 0px;
+    top: 1709.13px;
+    /* div.MuiBox-root */
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) {
+    /* div.MuiBox-root */
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 1284.5px;
+    border: 1px solid #C9C9C9;
+    border-radius: 8px;
+    /* div.elements-ds-1bm7awf */
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf {
+    /* div.elements-ds-1bm7awf */
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    /* div.elements-ds-1etv3an */
+    /* div.MuiBox-root */
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an {
+    /* div.elements-ds-1etv3an */
+    position: absolute;
+    height: 262px;
+    left: 0px;
+    right: 0px;
+    top: 200.25px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 166px;
+    left: 24px;
+    right: 24px;
+    top: 24px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) h3 {
+    /* Heading 3 → Virus VS Bacteria */
+    position: absolute;
+    width: 159.79px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.5938px;
+    line-height: 30px;
+    /* identical to box height, or 161% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) p {
+    /* Ils font partie de votre vie, mais les connaissez-vous vraiment ? Nos scientifiques vous expliquent les principales différences entre un virus et une bactérie. */
+    position: absolute;
+    width: 286.22px;
+    height: 120px;
+    left: 0px;
+    top: 46px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 48px;
+    left: 24px;
+    right: 24px;
+    top: 190px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+    /* Link → Lire l'article */
+    position: absolute;
+    width: 87.16px;
+    height: 20px;
+    left: 0px;
+    top: 26px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.625px;
+    line-height: 20px;
+    /* identical to box height, or 137% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 102.96px;
+    top: calc(50% - 8px + 12px);
+    /* Vector */
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.48%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .MuiBox-root {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 200.25px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    /* div.css-1rg66ui */
+    /* Button - Jouer la vidéo */
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .MuiBox-root .css-1rg66ui {
+    /* div.css-1rg66ui */
+    position: absolute;
+    height: 200.25px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(./image-mobile/thumbnail-youtube-virus-vs-bacteria_20240205091358.jpg.png);
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .MuiBox-root button {
+    /* Button - Jouer la vidéo */
+    position: absolute;
+    left: 41.57%;
+    right: 41.57%;
+    top: 35.02%;
+    bottom: 35.02%;
+    background: #EFEFEF;
+    border-radius: 30px;
+    /* Vector */
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(1) .elements-ds-1bm7awf .MuiBox-root button img {
+    /* Img */
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    left: calc(50% - 7.5px);
+    top: 20px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) {
+    /* div.MuiBox-root */
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 480.25px;
+    bottom: 726.25px;
+    border: 1px solid #C9C9C9;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf {
+    /* div.elements-ds-1bm7awf */
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .css-1b7ghj7 {
+    /* div.css-1b7ghj7 */
+    position: absolute;
+    height: 200.25px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(./image-mobile/b-corp-multi-country_20240201094252.jpg.png);
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an {
+    /* div.elements-ds-1etv3an */
+    position: absolute;
+    height: 340px;
+    left: 0px;
+    right: 0px;
+    top: 200.25px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 244px;
+    left: 24px;
+    right: 24px;
+    top: 24px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) p {
+    /* En obtenant la certification B Corp pour Entreprise Santé Grand Public en Amérique du Nord, en Allemagne, en Italie et en Amérique latine, nous faisons partie d'une communauté mondiale qui transforme le monde des affaires en une force pour le bien. */
+    position: absolute;
+    width: 307.31px;
+    height: 168px;
+    left: 0px;
+    top: 76px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.75px;
+    line-height: 24px;
+    /* or 163% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) h3 {
+    /* Heading 3 → Le parcours B Corp de Notre */
+    position: absolute;
+    width: 263.39px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.75px;
+    line-height: 30px;
+    /* or 160% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 48px;
+    left: 24px;
+    right: 24px;
+    top: 268px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+    /* Link → En savoir plus */
+    position: absolute;
+    width: 101.61px;
+    height: 20px;
+    left: 0px;
+    top: 26px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.75px;
+    line-height: 20px;
+    /* identical to box height, or 136% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 117.41px;
+    top: calc(50% - 8px + 12px);
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(2) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.48%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) {
+    /* div.MuiBox-root */
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 1038.5px;
+    bottom: 0px;
+    border: 1px solid #C9C9C9;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf {
+    /* div.elements-ds-1bm7awf */
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf > .MuiBox-root {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 200.25px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf > .MuiBox-root .css-rybfls {
+    /* div.css-rybfls */
+    position: absolute;
+    height: 200.25px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(./image-mobile/ngd-sleeping-sickness-thumbnail-youtube_20240130143837.jpg.png);
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf > .MuiBox-root button {
+    /* Button - Jouer la vidéo */
+    position: absolute;
+    left: 41.57%;
+    right: 41.57%;
+    top: 35.02%;
+    bottom: 35.02%;
+    background: #EFEFEF;
+    border-radius: 30px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf > .MuiBox-root button img {
+    /* Img */
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    left: calc(50% - 7.5px);
+    top: 20px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an {
+    /* div.elements-ds-1etv3an */
+    position: absolute;
+    height: 508px;
+    left: 0px;
+    right: 0px;
+    top: 200.25px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 412px;
+    left: 24px;
+    right: 24px;
+    top: 24px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) p {
+    /* Maladie tropicale négligée, la maladie du sommeil est généralement mortelle en l'absence de traitement. Les patients infectés par la variante la plus aiguë de la maladie, le T.b rhodesiense, n'ont malheureusement bénéficié que de peu d'innovations en matière de traitement. Mais l'espoir pointe à l'horizon. Pour ces patients, nous voyons le potentiel du premier traitement oral pour cette variante de la maladie, soutenant ainsi l'objectif d'élimination de la maladie du sommeil chez l’humain d'ici 2030. */
+    position: absolute;
+    width: 296.17px;
+    height: 336px;
+    left: 0px;
+    top: 76px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.375px;
+    line-height: 24px;
+    /* or 167% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) h3 {
+    /* Heading 3 → Maladie du sommeil : Ne laisser */
+    position: absolute;
+    width: 287.57px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.2812px;
+    line-height: 30px;
+    /* or 164% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 48px;
+    left: 24px;
+    right: 24px;
+    top: 436px;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+    /* Link → En savoir plus */
+    position: absolute;
+    width: 101.61px;
+    height: 20px;
+    left: 0px;
+    top: 26px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.75px;
+    line-height: 20px;
+    /* identical to box height, or 136% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 117.41px;
+    top: calc(50% - 8px + 12px);
+  }
+  body .void-test .the-body #main .dotcom-card-list > .MuiBox-root:nth-child(3) .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.48%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block {
+    /* div.dotcom-articles-type-block */
+    position: absolute;
+    height: 668.66px;
+    left: 0px;
+    right: 0px;
+    top: 3521.88px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .separator {
+    /* Separator */
+    position: absolute;
+    height: 1px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #C9C9C9;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block h2 {
+    /* Heading 2 → Sanofi Today */
+    position: absolute;
+    width: 168.46px;
+    height: 42px;
+    left: 0px;
+    top: 25px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.6875px;
+    line-height: 42px;
+    /* identical to box height, or 157% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block > a:nth-of-type(1) {
+    /* Link → Lisez nos derniers articles */
+    position: absolute;
+    width: 240.44px;
+    height: 30px;
+    left: 0px;
+    top: 101px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.4375px;
+    line-height: 30px;
+    /* identical to box height, or 163% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block > a:nth-of-type(2) {
+    /* Link → Img */
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 256.24px;
+    top: calc(54% - 10px - 240.33px);
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block > a:nth-of-type(2) img {
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.49%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel {
+    /* Region - carousel */
+    position: absolute;
+    height: 399.66px;
+    left: -8px;
+    right: -8px;
+    top: 145px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 {
+    /* Item 0 */
+    position: absolute;
+    width: 280.5px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root {
+    /* div.MuiBox-root */
+    box-sizing: border-box;
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    top: 1px;
+    bottom: 1px;
+    border: 1px solid #C9C9C9;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf {
+    /* div.elements-ds-1bm7awf */
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .css-1y1l8st {
+    /* div.css-1y1l8st */
+    position: absolute;
+    height: 147.66px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(./image-mobile/andrea-pompe.jpg\ .png);
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an {
+    /* div.elements-ds-1etv3an */
+    position: absolute;
+    height: 248px;
+    left: 0px;
+    right: 0px;
+    top: 147.65px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 152px;
+    left: 24px;
+    right: 24px;
+    top: 24px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) h4 {
+    /* Your Health */
+    position: absolute;
+    width: 74.19px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.125px;
+    line-height: 21px;
+    /* identical to box height, or 160% */
+    display: flex;
+    align-items: center;
+    color: #434343;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) p {
+    /* 27 février 2024 */
+    position: absolute;
+    width: 96.08px;
+    height: 33px;
+    left: 0px;
+    top: 25px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    color: #434343;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) h3 {
+    /* Heading 3 → Journée des maladies */
+    position: absolute;
+    width: 213.7px;
+    height: 90px;
+    left: 0px;
+    top: 62px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.4375px;
+    line-height: 30px;
+    /* or 163% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 48px;
+    left: 24px;
+    right: 24px;
+    top: 176px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+    /* Link → Lire l'article */
+    position: absolute;
+    width: 87.16px;
+    height: 20px;
+    left: 0px;
+    top: 26px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.625px;
+    line-height: 20px;
+    /* identical to box height, or 137% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 102.96px;
+    top: calc(50% - 8px + 12px);
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-0 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.48%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 {
+    /* Item 1 */
+    position: absolute;
+    width: 280.5px;
+    left: 280.5px;
+    top: 0px;
+    bottom: 0px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root {
+    /* div.MuiBox-root */
+    box-sizing: border-box;
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    top: 1px;
+    bottom: 1px;
+    border: 1px solid #C9C9C9;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf {
+    /* div.elements-ds-1bm7awf */
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .css-1xvr8mr {
+    /* div.css-1xvr8mr */
+    position: absolute;
+    height: 147.66px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(./image-mobile/herobanner-nojargon-article-2_20240108100336.jpg.png);
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an {
+    /* div.elements-ds-1etv3an */
+    position: absolute;
+    height: 248px;
+    left: 0px;
+    right: 0px;
+    top: 147.65px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 152px;
+    left: 24px;
+    right: 24px;
+    top: 24px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) h4 {
+    /* Your Health */
+    position: absolute;
+    width: 74.19px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.125px;
+    line-height: 21px;
+    /* identical to box height, or 160% */
+    display: flex;
+    align-items: center;
+    color: #434343;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) p {
+    /* 7 février 2024 */
+    position: absolute;
+    width: 88.33px;
+    height: 33px;
+    left: 0px;
+    top: 25px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    color: #434343;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(1) h3 {
+    /* Heading 3 → #NoJargon: Plongez */
+    position: absolute;
+    width: 191.43px;
+    height: 90px;
+    left: 0px;
+    top: 62px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.2188px;
+    line-height: 30px;
+    /* or 156% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 48px;
+    left: 24px;
+    right: 24px;
+    top: 176px;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+    /* Link → Lire l'article */
+    position: absolute;
+    width: 87.16px;
+    height: 20px;
+    left: 0px;
+    top: 26px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.625px;
+    line-height: 20px;
+    /* identical to box height, or 137% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 102.96px;
+    top: calc(50% - 8px + 12px);
+  }
+  body .void-test .the-body #main .dotcom-articales-type-block .region-carousel .item-1 > .MuiBox-root .elements-ds-1bm7awf .elements-ds-1etv3an > .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.48%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list {
+    /* div.dotcom-press-releases-list */
+    position: absolute;
+    height: 1555px;
+    left: 0px;
+    right: 0px;
+    top: 4254.53px;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list h2 {
+    /* Heading 2 → Nos dernières informations */
+    position: absolute;
+    width: 354.83px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.3594px;
+    line-height: 42px;
+    /* identical to box height, or 159% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list .separator-1 {
+    /* Separator */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 66px;
+    bottom: 1488px;
+    background: #C9C9C9;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list span:nth-of-type(1) {
+    /* 24 février 2024 */
+    position: absolute;
+    width: 99.87px;
+    height: 21px;
+    left: 16px;
+    top: 99px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.2344px;
+    line-height: 21px;
+    /* identical to box height, or 159% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list p:nth-of-type(1) {
+    /* Communiqué : Résultats de phase II montrent que le rilzabrutinib permet de réduire rapidement la sévérité des démangeaisons causées par l’urticaire chronique spontanée et d’améliorer significativement l’activité de la maladie chez l’adulte */
+    position: absolute;
+    width: 316.22px;
+    height: 240px;
+    left: 16px;
+    top: 132px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.375px;
+    line-height: 30px;
+    /* or 155% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(1) {
+    /* Link → Lire le communiqué */
+    position: absolute;
+    width: 146.88px;
+    height: 20px;
+    left: 16px;
+    top: 406px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(2) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 178.68px;
+    top: calc(50% - 8px - 361.5px);
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(2) img {
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.48%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(3) {
+    /* Link - link */
+    box-sizing: border-box;
+    position: absolute;
+    width: 44px;
+    right: 16px;
+    top: 384px;
+    bottom: 1127px;
+    border: 1px solid #7A00E6;
+    border-radius: 9999px;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(3) img {
+    /* Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: calc(50% - 8px);
+    top: calc(50% - 8px);
+  }
+  body .void-test .the-body #main .dotcom-press-release-list .separator-2 {
+    /* Separator */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 460px;
+    bottom: 1094px;
+    background: #C9C9C9;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list span:nth-of-type(2) {
+    /* 24 février 2024 */
+    position: absolute;
+    width: 99.87px;
+    height: 21px;
+    left: 16px;
+    top: 493px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.2344px;
+    line-height: 21px;
+    /* identical to box height, or 159% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list p:nth-of-type(2) {
+    /* Media Update: Dupixent® continues scientific leadership with late-breaking results showing reduced airway inflammation and mucus plugging in adults with uncontrolled moderate-to-severe asthma */
+    position: absolute;
+    width: 323.4px;
+    height: 210px;
+    left: 16px;
+    top: 526px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.375px;
+    line-height: 30px;
+    /* or 155% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(4) {
+    /* Link → Lire le communiqué */
+    position: absolute;
+    width: 146.88px;
+    height: 20px;
+    left: 16px;
+    top: 770px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(5) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 178.68px;
+    top: calc(50% - 8px + 2.5px);
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(5) img {
+    /* Vector */
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.48%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(6) {
+    /* Link - link */
+    box-sizing: border-box;
+    position: absolute;
+    width: 44px;
+    right: 16px;
+    top: 748px;
+    bottom: 763px;
+    border: 1px solid #7A00E6;
+    border-radius: 9999px;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(6) img {
+    /* Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: calc(50% - 8px);
+    top: calc(50% - 8px);
+  }
+  body .void-test .the-body #main .dotcom-press-release-list .separator-3 {
+    /* Separator */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 824px;
+    bottom: 730px;
+    background: #C9C9C9;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list span:nth-of-type(3) {
+    /* 23 février 2024 */
+    position: absolute;
+    width: 99.61px;
+    height: 21px;
+    left: 16px;
+    top: 857px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.2344px;
+    line-height: 21px;
+    /* identical to box height, or 159% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list p:nth-of-type(3) {
+    /* Communiqué de presse : Dépôt du Document d’Enregistrement Universel 2023, contenant le Rapport Financier Annuel, et du « Form 20-F » américain */
+    position: absolute;
+    width: 320.66px;
+    height: 150px;
+    left: 16px;
+    top: 890px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.375px;
+    line-height: 30px;
+    /* or 155% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(7) {
+    /* Link → Lire le communiqué */
+    position: absolute;
+    width: 146.88px;
+    height: 20px;
+    left: 16px;
+    top: 1074px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(8) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 178.68px;
+    top: calc(50% - 8px + 306.5px);
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(8) img {
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.48%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(9) {
+    /* Link - link */
+    box-sizing: border-box;
+    position: absolute;
+    width: 44px;
+    right: 16px;
+    top: 1052px;
+    bottom: 459px;
+    border: 1px solid #7A00E6;
+    border-radius: 9999px;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(9) img {
+    /* Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: calc(50% - 8px);
+    top: calc(50% - 8px);
+  }
+  body .void-test .the-body #main .dotcom-press-release-list .separator-4 {
+    /* Separator */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 1128px;
+    bottom: 426px;
+    background: #C9C9C9;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list span:nth-of-type(4) {
+    /* 23 février 2024 */
+    position: absolute;
+    width: 99.61px;
+    height: 21px;
+    left: 16px;
+    top: 1161px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.2344px;
+    line-height: 21px;
+    /* identical to box height, or 159% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list p:nth-of-type(4) {
+    /* Communiqué de presse : La FDA accorde un examen prioritaire à la demande de licence de produits biologique relative à Dupixent® pour le traitement de la BPCO avec inflammation de type 2 */
+    position: absolute;
+    width: 324.93px;
+    height: 180px;
+    left: 16px;
+    top: 1194px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.75px;
+    line-height: 30px;
+    /* or 160% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(10) {
+    /* Link → Lire le communiqué */
+    position: absolute;
+    width: 146.88px;
+    height: 20px;
+    left: 16px;
+    top: 1408px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(11) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 178.68px;
+    top: calc(50% - 8px + 640.5px);
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(11) img {
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.48%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(12) {
+    /* Link - link */
+    box-sizing: border-box;
+    position: absolute;
+    width: 44px;
+    right: 16px;
+    top: 1386px;
+    bottom: 125px;
+    border: 1px solid #7A00E6;
+    border-radius: 9999px;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(12) img {
+    /* Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: calc(50% - 8px);
+    top: calc(50% - 8px);
+  }
+  body .void-test .the-body #main .dotcom-press-release-list .separator-5 {
+    /* Separator */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 1462px;
+    bottom: 92px;
+    background: #C9C9C9;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(13) {
+    /* Link → Voir tous les communiqués de */
+    position: absolute;
+    width: 278.07px;
+    height: 60px;
+    left: calc(50% - 139.035px - 17.9px);
+    top: 1495px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.5938px;
+    line-height: 30px;
+    /* or 161% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(14) {
+    /* Link → Img */
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 338px;
+    top: calc(50% - 10px + 747.5px);
+  }
+  body .void-test .the-body #main .dotcom-press-release-list a:nth-of-type(14) img {
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.49%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list {
+    /* div.dotcom-card-list */
+    position: absolute;
+    height: 1556.75px;
+    left: 0px;
+    right: 0px;
+    top: 5873.53px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list h2 {
+    /* Heading 2 → Découvrir plus */
+    position: absolute;
+    width: 189.74px;
+    height: 42px;
+    left: 0px;
+    top: -7px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.3594px;
+    line-height: 42px;
+    /* identical to box height, or 159% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 {
+    /* div.MuiBox-root */
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 54px;
+    bottom: 864.5px;
+    border: 1px solid #C9C9C9;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf {
+    /* div.elements-ds-1bm7awf */
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .css-jeicif {
+    /* div.css-jeicif */
+    position: absolute;
+    height: 200.25px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(./image-mobile/diversity-equity-inclusion-report_20230605090726.jpg.png);
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an {
+    /* div.elements-ds-1etv3an */
+    position: absolute;
+    height: 436px;
+    left: 0px;
+    right: 0px;
+    top: 200.25px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 340px;
+    left: 24px;
+    right: 24px;
+    top: 24px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) h3 {
+    /* Heading 3 → Rapport diversité, équité et */
+    position: absolute;
+    width: 255.18px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.75px;
+    line-height: 30px;
+    /* or 160% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) p {
+    /* Au cours de la première année complète de notre nouvelle stratégie People & Culture, les enjeux de Diversité, Équité et Inclusion (DE&I) ont occupé le devant de la scène. Ce rapport célèbre les progrès concrets que nous avons réalisés pour refléter la diversité dans nos équipes dirigeantes, libérer tout le potentiel de nos collaborateurs et collaboratrices et avoir un impact sur l’environnement de travail mais aussi au-delà. */
+    position: absolute;
+    width: 307.42px;
+    height: 264px;
+    left: 0px;
+    top: 76px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.125px;
+    line-height: 24px;
+    /* or 159% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 48px;
+    left: 24px;
+    right: 24px;
+    top: 364px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+    /* Link → Lisez le document */
+    position: absolute;
+    width: 134.76px;
+    height: 20px;
+    left: 0px;
+    top: 26px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 150.56px;
+    top: calc(50% - 8px + 12px);
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-1 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+    /* Vector */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 {
+    /* div.MuiBox-root */
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 708.25px;
+    bottom: 432.25px;
+    border: 1px solid #C9C9C9;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf {
+    /* div.elements-ds-1bm7awf */
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .css-kwy9qh {
+    /* div.css-kwy9qh */
+    position: absolute;
+    height: 200.25px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(./image-mobile/herobanner-our-legacy-2_20230515114155.jpg.png);
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an {
+    /* div.elements-ds-1etv3an */
+    position: absolute;
+    height: 214px;
+    left: 0px;
+    right: 0px;
+    top: 200.25px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 118px;
+    left: 24px;
+    right: 24px;
+    top: 24px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) h3 {
+    /* Heading 3 → Notre héritage */
+    position: absolute;
+    width: 136.65px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.0625px;
+    line-height: 30px;
+    /* identical to box height, or 157% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) p {
+    /* Notre societé d’aujourd’hui s’appuie sur un héritage qui consiste à transformer l’impossible en possible. */
+    position: absolute;
+    width: 307.1px;
+    height: 72px;
+    left: 0px;
+    top: 46px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.625px;
+    line-height: 24px;
+    /* or 164% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 48px;
+    left: 24px;
+    right: 24px;
+    top: 142px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+    /* Link → En savoir plus sur notre histoire */
+    position: absolute;
+    width: 232.56px;
+    height: 20px;
+    left: 0px;
+    top: 26px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.75px;
+    line-height: 20px;
+    /* identical to box height, or 136% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 248.36px;
+    top: calc(50% - 8px + 12px);
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-2 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+    /* Vector */
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 12.48%;
+    bottom: 12.49%;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 {
+    /* div.MuiBox-root */
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 1140.5px;
+    bottom: 0px;
+    border: 1px solid #C9C9C9;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf {
+    /* div.elements-ds-1bm7awf */
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .css-nk641s {
+    /* div.css-nk641s */
+    position: absolute;
+    height: 200.25px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(./image-mobile/image-mobile/Integrated-Report-202302_20230612091817.jpg.png);
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an {
+    /* div.elements-ds-1etv3an */
+    position: absolute;
+    height: 214px;
+    left: 0px;
+    right: 0px;
+    top: 200.25px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 118px;
+    left: 24px;
+    right: 24px;
+    top: 24px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) h3 {
+    /* Heading 3 → Notre rapport intégré 2022 */
+    position: absolute;
+    width: 253.29px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.0625px;
+    line-height: 30px;
+    /* identical to box height, or 157% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(1) p {
+    /* Découvrez comment nous rendons possible l'impossible pour améliorer la vie des gens dans le monde. */
+    position: absolute;
+    width: 298.03px;
+    height: 72px;
+    left: 0px;
+    top: 46px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.375px;
+    line-height: 24px;
+    /* or 167% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) {
+    /* div.MuiBox-root */
+    position: absolute;
+    height: 48px;
+    left: 24px;
+    right: 24px;
+    top: 142px;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(1) {
+    /* Link → Lire le rapport */
+    position: absolute;
+    width: 105.47px;
+    height: 20px;
+    left: 0px;
+    top: 26px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.875px;
+    line-height: 20px;
+    /* identical to box height, or 134% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) {
+    /* Link → Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 121.27px;
+    top: calc(50% - 8px + 12px);
+  }
+  body .void-test .the-body #main .second-dotcom-card-list .MuiBox-root-3 .elements-ds-1bm7awf .elements-ds-1etv3an .MuiBox-root:nth-child(2) a:nth-of-type(2) img {
+    /* Vector */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+  body .void-test .the-body #main .dotcom-focused-block {
+    /* div.dotcom-focused-block */
+    position: absolute;
+    height: 400px;
+    left: 0px;
+    right: 0px;
+    top: 7482.28px;
+  }
+  body .void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac {
+    /* div#e1eded33-d92a-44b9-8412-1920a9a0b4ac */
+    position: absolute;
+    height: 400px;
+    left: 0px;
+    right: 0px;
+    top: -12px;
+    background: #F5F5F5;
+  }
+  body .void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(1) {
+    /* div.MuiGrid2-root */
+    position: absolute;
+    height: 108px;
+    left: 16px;
+    right: 16px;
+    top: calc(50% - 54px - 82px);
+  }
+  body .void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(1) h2 {
+    /* Heading 2 → Construisez votre */
+    position: absolute;
+    width: 258.61px;
+    height: 84px;
+    left: calc(50% - 129.305px + 0.1px);
+    top: 11.75px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.25px;
+    line-height: 42px;
+    /* or 160% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  body .void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(2) {
+    /* div.MuiGrid2-root */
+    position: absolute;
+    width: 326px;
+    height: 96px;
+    left: calc(50% - 163px);
+    top: calc(50% - 48px + 20px);
+  }
+  body .void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(2) p {
+    /* Vous serez surpris de voir tout ce que vous pouvez accomplir chez Entreprise. Découvrez votre avenir ici. */
+    position: absolute;
+    width: 306.38px;
+    height: 72px;
+    left: calc(50% - 153.19px + 0.1px);
+    top: 12px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.375px;
+    line-height: 24px;
+    /* or 167% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(3) {
+    /* div.MuiGrid2-root */
+    position: absolute;
+    height: 68px;
+    left: 16px;
+    right: 16px;
+    top: calc(50% - 34px + 102px);
+  }
+  body .void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(3) button {
+    /* Button */
+    position: absolute;
+    width: 272.73px;
+    left: calc(50% - 136.365px - 0.01px);
+    top: 12px;
+    bottom: 12px;
+    background: #7A00E6;
+    border-radius: 4px;
+  }
+  body .void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(3) button img {
+    /* Img */
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: calc(50% - 8px - 104.37px);
+    top: calc(50% - 8px);
+  }
+  body .void-test .the-body #main .dotcom-focused-block #e1eded33-d92a-44b9-8412-1920a9a0b4ac .MuiGrid2-root:nth-child(3) button a {
+    /* Link → Accéder au portail Carrières */
+    position: absolute;
+    width: 202.93px;
+    height: 16px;
+    left: calc(50% - 101.465px + 11.1px);
+    top: 14px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.75px;
+    line-height: 16px;
+    /* identical to box height, or 108% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  body .void-test .the-footer {
+    /* Footer */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 8715.28px;
+    bottom: 0px;
+    background: #FFFFFF;
+  }
+  body .void-test .the-footer .css-oonhgn {
+    /* div.css-oonhgn */
+    position: absolute;
+    height: 269.7px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #000000;
+  }
+  body .void-test .the-footer .css-oonhgn .MuiBox-root {
+    /* div.MuiBox-root */
+    position: absolute;
+    width: 88px;
+    height: 40.5px;
+    left: 151px;
+    top: 16px;
+  }
+  body .void-test .the-footer .css-oonhgn .MuiBox-root img {
+    /* SVG - Sanofi */
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    left: 4px;
+    top: 4px;
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b {
+    /* div.css-wx3a3b */
+    position: absolute;
+    width: 326px;
+    height: 136px;
+    left: 32px;
+    top: 72.5px;
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b span {
+    /* Suivez nous */
+    position: absolute;
+    width: 88.08px;
+    height: 24px;
+    left: 119.06px;
+    top: 0px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul {
+    /* List */
+    position: absolute;
+    width: 326px;
+    height: 112px;
+    left: calc(50% - 163px);
+    top: 24px;
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(1) {
+    /* Item → Link - Visitez le compte Linkedin de Sanofi */
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 3px;
+    top: calc(50% - 20px - 28px);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(1) img {
+    /* Img */
+    position: absolute;
+    width: 19.2px;
+    height: 19.2px;
+    left: calc(50% - 9.6px - 0px);
+    top: calc(50% - 9.6px + 0px);
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(2) {
+    /* Item → Link - Visitez le compte Twitter de Sanofi */
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 59px;
+    top: calc(50% - 20px - 28px);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(2) img {
+    /* Img */
+    position: absolute;
+    width: 16.2px;
+    height: 19.2px;
+    left: calc(50% - 9.6px - 0px);
+    top: calc(50% - 9.6px + 0px);
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(3) {
+    /* Item → Link - Visitez le compte Instagram de Sanofi */
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 115px;
+    top: calc(50% - 20px - 28px);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(3) img {
+    /* Img */
+    position: absolute;
+    width: 19.2px;
+    height: 19.2px;
+    left: calc(50% - 9.6px - 0px);
+    top: calc(50% - 9.6px + 0px);
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(4) {
+    /* Item → Link - Visitez le compte Facebook de Sanofi */
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 171px;
+    top: calc(50% - 20px - 28px);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(4) img {
+    /* Img */
+    position: absolute;
+    width: 16.2px;
+    height: 19.2px;
+    left: calc(50% - 9.6px - 0px);
+    top: calc(50% - 9.6px + 0px);
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(5) {
+    /* Item → Link - Visitez le compte TikTok de Sanofi */
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 227px;
+    top: calc(50% - 20px - 28px);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(5) img {
+    /* Img */
+    position: absolute;
+    width: 3.2px;
+    height: 19.2px;
+    left: calc(50% - 9.6px - 0px);
+    top: calc(50% - 9.6px + 0px);
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(6) {
+    /* Item → Link - Visitez le compte TikTok de Sanofi */
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 227px;
+    top: calc(50% - 20px - 28px);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(6) img {
+    /* Img */
+    position: absolute;
+    width: 19.2px;
+    height: 19.2px;
+    left: calc(50% - 9.6px - 0px);
+    top: calc(50% - 9.6px + 0px);
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(7) {
+    /* Item → Link - Visitez la chaine Youtube de Sanofi */
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 283px;
+    top: calc(50% - 20px - 28px);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+  }
+  body .void-test .the-footer .css-oonhgn .css-wx3a3b ul li:nth-child(7) img {
+    /* Img */
+    position: absolute;
+    width: 19.2px;
+    height: 19.2px;
+    left: calc(50% - 9.6px - 0px);
+    top: calc(50% - 9.6px + 0px);
+  }
+  body .void-test .the-footer .css-oonhgn .css-cnp892 {
+    /* div.css-cnp892 */
+    position: absolute;
+    width: 158.17px;
+    height: 29.2px;
+    left: 115.91px;
+    top: 224.5px;
+  }
+  body .void-test .the-footer .css-oonhgn .css-cnp892 button:nth-child(1) {
+    /* Button - Haut de la page → Haut de la page */
+    position: absolute;
+    width: 113.35px;
+    height: 18px;
+    left: calc(50% - 56.675px - 17.41px);
+    top: calc(50% - 9px - 0.25px);
+    font-family: "Work sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  body .void-test .the-footer .css-oonhgn .css-cnp892 button:nth-child(2) {
+    /* Button - Haut de la page → Img */
+    position: absolute;
+    height: 19.2px;
+    left: 125.98px;
+    right: 12.99px;
+    top: 5px;
+  }
+  body .void-test .the-footer .css-oonhgn .css-cnp892 button:nth-child(2) img {
+    /* Vector */
+    position: absolute;
+    left: 12.49%;
+    right: 12.49%;
+    top: 6.26%;
+    bottom: 6.25%;
+  }
+  body .void-test .the-footer .css-1boijxs {
+    /* div.css-1boijxs */
+    position: absolute;
+    height: 544px;
+    left: 0px;
+    right: 0px;
+    top: 269.7px;
+    background: #FFFFFF;
+  }
+  body .void-test .the-footer .css-1boijxs .Nav {
+    /* Nav */
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: 16px;
+    bottom: 56px;
+  }
+  body .void-test .the-footer .css-1boijxs .Nav li:nth-child(1) {
+    /* List → Item → Link → Contact */
+    position: absolute;
+    width: 59.8px;
+    height: 24px;
+    left: 0px;
+    top: 8px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.375px;
+    line-height: 24px;
+    /* identical to box height, or 156% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-footer .css-1boijxs .Nav li:nth-child(2) {
+    /* List → Item → Link → Mentions légales */
+    position: absolute;
+    width: 121.71px;
+    height: 24px;
+    left: 0px;
+    top: 56px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.75px;
+    line-height: 24px;
+    /* identical to box height, or 163% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-footer .css-1boijxs .Nav li:nth-child(3) {
+    /* List → Item → Link → Vie Privée et Données Personnelles */
+    position: absolute;
+    width: 254.52px;
+    height: 24px;
+    left: 0px;
+    top: 104px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.625px;
+    line-height: 24px;
+    /* identical to box height, or 164% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-footer .css-1boijxs .Nav li:nth-child(4) {
+    /* List → Item → Link → Politique des cookies */
+    position: absolute;
+    width: 152.81px;
+    height: 24px;
+    left: 0px;
+    top: 152px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.625px;
+    line-height: 24px;
+    /* identical to box height, or 164% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-footer .css-1boijxs .Nav li:nth-child(5) {
+    /* List → Item → Link → Sanofi Today */
+    position: absolute;
+    width: 93.55px;
+    height: 24px;
+    left: 0px;
+    top: 200px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.125px;
+    line-height: 24px;
+    /* identical to box height, or 159% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-footer .css-1boijxs .Nav li:nth-child(6) {
+    /* List → Item → Link → Nos publications */
+    position: absolute;
+    width: 121.28px;
+    height: 24px;
+    left: 0px;
+    top: 248px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.75px;
+    line-height: 24px;
+    /* identical to box height, or 163% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-footer .css-1boijxs .Nav li:nth-child(7) {
+    /* List → Item → Link → Plan du site */
+    position: absolute;
+    width: 83.57px;
+    height: 24px;
+    left: 0px;
+    top: 296px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.25px;
+    line-height: 24px;
+    /* identical to box height, or 168% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-footer .css-1boijxs .Nav li:nth-child(8) {
+    /* List → Item → Link → Annuaire */
+    position: absolute;
+    width: 65.18px;
+    height: 24px;
+    left: 0px;
+    top: 344px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-footer .css-1boijxs .Nav li:nth-child(9) {
+    /* List → Item → Link → Accessibilité : conformité partielle */
+    position: absolute;
+    width: 245.61px;
+    height: 24px;
+    left: 0px;
+    top: 392px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5px;
+    line-height: 24px;
+    /* identical to box height, or 166% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-footer .css-1boijxs .Nav li:nth-child(10) {
+    /* List → Item → Link → Code de Conduite */
+    position: absolute;
+    width: 133.02px;
+    height: 24px;
+    left: 0px;
+    top: 440px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.125px;
+    line-height: 24px;
+    /* identical to box height, or 159% */
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+  }
+  body .void-test .the-footer .css-1boijxs .MuiTypography-root {
+    /* span.MuiTypography-root */
+    position: absolute;
+    height: 24px;
+    left: 16px;
+    right: 16px;
+    top: 504px;
+  }
+}/*# sourceMappingURL=main.css.map */
